@@ -1,0 +1,7 @@
+
+class CfgHints 
+{
+	class FinMod
+	{
+	};
+};

@@ -1,0 +1,1 @@
+#define RHA(pen_mm, speed) caliber = (pen_mm/((15*speed)/1000));
