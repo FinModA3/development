@@ -1,10 +1,12 @@
 # development
 Reposiroty for issue tracking of latest stable release and public development with config files.
 
-
-For issue tracking:
+////////////////////////////////////////////////////////
+For issue tracking, please use following form:
 
   - Title: [summary of the issue]
+
+Add following details:
 
   - Severity: [Minor/Major/Game breaking]
 
@@ -21,7 +23,7 @@ For issue tracking:
 - Is this a request/wish?: [Yes/No]
 
 
-
+////////////////////////////////////////////////////////
 
 For developers:
 
