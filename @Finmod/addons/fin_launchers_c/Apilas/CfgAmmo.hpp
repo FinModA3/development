@@ -19,7 +19,7 @@
 	thrustTime = 0;
 	thrust = 0;
 
-	fuseDistance = 5;
+	fuseDistance = 25;
 	explosive = 0.35;
 	visibleFire = 40;
 	audibleFire = 25;
