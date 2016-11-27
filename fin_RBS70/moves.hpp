@@ -1,0 +1,166 @@
+class CfgMovesBasic {
+	class DefaultDie;
+	class ManActions {TB_RBS70 = "TB_RBS70";};
+};
+
+class CfgMovesMaleSdr: CfgMovesBasic {
+	class States {
+		class Crew;
+		class KIA_TB_RBS70: DefaultDie
+		{
+			actions="DeadActions";
+			file="\FinMod\addons\fin_RBS70\Anim\KIA_TB_RBS70.rtm";
+			speed=1;
+			looped="false";
+			terminal=1;
+			soundEnabled=0;
+			connectTo[]=
+			{
+				"Unconscious",
+				0.1
+			};
+		};
+		class TB_RBS70: Crew
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V0.rtm";
+			speed=0.30000001;
+			equivalentTo="TB_RBS70";
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1,
+				"TB_RBS70_V1",
+				0.1,
+				"TB_RBS70_V2",
+				0.1,
+				"TB_RBS70_V3",
+				0.1,
+				"TB_RBS70_V4",
+				0.1,
+				"TB_RBS70_V5",
+				0.1,
+				"TB_RBS70_V6",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantsAI[]=
+			{
+				"TB_RBS70",
+				0.40000001,
+				"TB_RBS70_V1",
+				0.1,
+				"TB_RBS70_V2",
+				0.1,
+				"TB_RBS70_V3",
+				0.1,
+				"TB_RBS70_V4",
+				0.1,
+				"TB_RBS70_V5",
+				0.1,
+				"TB_RBS70_V6",
+				0.1
+			};
+			variantAfter[]={5,10,20};
+		};
+		class TB_RBS70_V1: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V1.rtm";
+			speed=0.27000001;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={3.7,3.7,3.7};
+		};
+		class TB_RBS70_V2: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V2.rtm";
+			speed=0.345;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={3,3,3};
+		};
+		class TB_RBS70_V3: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V3.rtm";
+			speed=0.2;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={5,5,5};
+		};
+		class TB_RBS70_V4: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V4.rtm";
+			speed=0.20100001;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={5,5,5};
+		};
+		class TB_RBS70_V5: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V5.rtm";
+			speed=0.197;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={5,5,5};
+		};
+		class TB_RBS70_V6: TB_RBS70
+		{
+			file="\FinMod\addons\fin_RBS70\Anim\TB_RBS70_V6.rtm";
+			speed=0.345;
+			connectTo[]=
+			{
+				"TB_RBS70",
+				0.1
+			};
+			interpolateTo[]=
+			{
+				"KIA_TB_RBS70",
+				0.1
+			};
+			variantAfter[]={3,3,3};
+		};
+	};
+};

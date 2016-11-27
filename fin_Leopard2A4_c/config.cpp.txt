@@ -1,0 +1,5 @@
+#include "../fin_main/basicdefines_A3.hpp"
+#include "CfgPatches.hpp"
+#include "inheritance_tree.hpp"
+#include "CfgVehicles.hpp"
+#include "nameMacros.hpp"
