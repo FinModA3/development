@@ -2,7 +2,7 @@
 Repository for issue tracking of latest stable release and public development with config files.
 
 ////////////////////////////////////////////////////////
-For issue tracking, please use following form:
+For issue tracking, please use the following form:
 
   - Title: [summary of the issue]
 
@@ -31,7 +31,7 @@ For developers:
 
   2. Remove all _c.pbo files
 
-  3. Pull the repository from "https:/github.com/FimmodA3/development.git"
+  3. Pull the repository from "https:/github.com/FinmodA3/development.git"
 
   4. Download Arma 3 Tools from Steam
 
@@ -39,6 +39,6 @@ For developers:
 
   6. Make a pull request for .git
 
-  7. Wait for finmod-team member to take a look and possibly add the feature/solution to next update of Finmod
+  7. Wait for a Finmod-team member to take a look and possibly add the feature/solution to next update of Finmod
 
 All pull requests accepted for any update will be credited to their github account.
