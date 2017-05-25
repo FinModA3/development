@@ -1,3 +1,0 @@
-
-1. Pienentää lipas 1 panokseen
-2. Tehdä systeemi ladata ohjus inventorystä putkeen
