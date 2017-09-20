@@ -7,8 +7,8 @@ class CfgMagazines {
 		mass=80;
 		displayName="Telamiina";
 		descriptionUse="Telamiina";
-		picture="\FinMod\addons\fin_explosives\Data\UI\telamiina_ca.paa";
-		model="\FinMod\addons\fin_explosives\telamiina";
+		picture="\FinMod\addons\fin_explosives\TM 65 77\Data\UI\telamiina_ca.paa";
+		model="\FinMod\addons\fin_explosives\TM 65 77\telamiina";
 		useAction=1;
 		useActionTitle="$STR_ACTION_PUTBOMB";
 		type="2*		256";
