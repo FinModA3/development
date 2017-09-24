@@ -16,6 +16,7 @@ class CfgPatches
 #include "CfgVehicleClasses.hpp"
 #include "CfgNames.hpp"
 #include "CfgMarkers.hpp"
+#include "CfgMods.hpp"
 //#include "CfgFunctions.hpp"
 //#include "CfgHints.hpp"
 //#include "CfgRscStd.hpp"
