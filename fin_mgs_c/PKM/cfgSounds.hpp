@@ -24,9 +24,9 @@ class CfgSoundShaders
 	{
 		samples[] = // array of actual samples with probability weight, engine will randomly select one sample with no immediate repeat within SoundShader
 		{
-			{ "FinMod\addons\fin_mgs\PKM\sounds\close\pkm_shot_rev3_1.wav", 1 },
-			{ "FinMod\addons\fin_mgs\PKM\sounds\close\pkm_shot_rev3_2.wav", 1 },
-			{ "FinMod\addons\fin_mgs\PKM\sounds\close\pkm_shot_rev3_3.wav", 1 }
+			{ "FinMod\addons\fin_mgs\PKM\sounds\close\PKM-shotfinal1_finmod_1.wav", 1 },
+			{ "FinMod\addons\fin_mgs\PKM\sounds\close\PKM-shotfinal2_finmod_2.wav", 1 },
+			{ "FinMod\addons\fin_mgs\PKM\sounds\close\PKM-shotfinal3_finmod_3.wav", 1 }
 		};
 		volume = 1.5; // basic sound level value in dBFS (or actual sound level value) db6~2, db-6~0.5, simple expressions with sound controllers can be used
 		range = 175; // maximum range in meters where sound is played
@@ -75,7 +75,7 @@ class CfgSoundShaders
 			{200, 0},
 			{350, 0.2},
 			{500, 0.4},
-			{750, 0.8} 
+			{750, 0.8},
 			{1500, 1}
 		};
 	};

@@ -5,7 +5,7 @@ class CfgPatches
 	class fin_accessories_c
 	{
 		units[] = {};
-		weapons[] = { "fin_vv2000_sidemount", "fin_ta11", "fin_pp09", "fin_pp04" };
+		weapons[] = { "fin_vv2000_sidemount", "fin_ta11_3d", "fin_ta11_2d", "fin_pp09", "fin_pp04" };
 		magazines[] = {};
 		author = $STR_FinMod_Author;
 		requiredVersion = 0.5;
@@ -28,7 +28,8 @@ class asdg_OpticRail1913 : asdg_OpticRail
 {
 	class compatibleItems
 	{
-		fin_ta11 = 1;
+		fin_ta11_3d = 1;
+		fin_ta11_2d = 1;
 		fin_pp09 = 1;
 		fin_pp04 = 1;
 	};

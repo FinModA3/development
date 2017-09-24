@@ -199,40 +199,40 @@
         <German>Zeiss Diavari V 3-12 x 56 T</German>
       </Key>
       <Key ID="STR_desc_fin_zeiss312x56">
-        <Original>Scope for TKIV 2000</Original>
-        <English>Scope for TKIV 2000</English>
-        <Czech>Scope for TKIV 2000</Czech>
-        <French>Scope for TKIV 2000</French>
-        <Spanish>Scope for TKIV 2000</Spanish>
-        <Italian>Scope for TKIV 2000</Italian>
-        <Polish>Scope for TKIV 2000</Polish>
-        <Portuguese>Scope for TKIV 2000</Portuguese>
-        <Russian>Scope for TKIV 2000</Russian>
-        <German>Scope for TKIV 2000</German>
+        <Original>Scope for TKiv 2000</Original>
+        <English>Scope for TKiv 2000</English>
+        <Czech>Scope for TKiv 2000</Czech>
+        <French>Scope for TKiv 2000</French>
+        <Spanish>Scope for TKiv 2000</Spanish>
+        <Italian>Scope for TKiv 2000</Italian>
+        <Polish>Scope for TKiv 2000</Polish>
+        <Portuguese>Scope for TKiv 2000</Portuguese>
+        <Russian>Scope for TKiv 2000</Russian>
+        <German>Scope for TKiv 2000</German>
       </Key>
 	<Key ID="STR_fin_TKiv2000_Bipod">
-        <Original>Sako TKIV 2000 bipod</Original>
-        <English>Sako TKIV 2000 bipod</English>
-        <Czech>Sako TKIV 2000 bipod</Czech>
-        <French>Sako TKIV 2000 bipod</French>
-        <Spanish>Sako TKIV 2000 bipod</Spanish>
-        <Italian>Sako TKIV 2000 bipod</Italian>
-        <Polish>Sako TKIV 2000 bipod</Polish>
-        <Portuguese>Sako TKIV 2000 bipod</Portuguese>
-        <Russian>Sako TKIV 2000 bipod</Russian>
-        <German>Sako TKIV 2000 bipod</German>
+        <Original>Sako TKiv 2000 bipod</Original>
+        <English>Sako TKiv 2000 bipod</English>
+        <Czech>Sako TKiv 2000 bipod</Czech>
+        <French>Sako TKiv 2000 bipod</French>
+        <Spanish>Sako TKiv 2000 bipod</Spanish>
+        <Italian>Sako TKiv 2000 bipod</Italian>
+        <Polish>Sako TKiv 2000 bipod</Polish>
+        <Portuguese>Sako TKiv 2000 bipod</Portuguese>
+        <Russian>Sako TKiv 2000 bipod</Russian>
+        <German>Sako TKiv 2000 bipod</German>
       </Key>
       <Key ID="STR_desc_fin_TKiv2000_Bipod">
-        <Original>Bipod for TKIV 2000</Original>
-        <English>Bipod for TKIV 2000</English>
-        <Czech>Bipod for TKIV 2000</Czech>
-        <French>Bipod for TKIV 2000</French>
-        <Spanish>Bipod for TKIV 2000</Spanish>
-        <Italian>Bipod for TKIV 2000</Italian>
-        <Polish>Bipod for TKIV 2000</Polish>
-        <Portuguese>Bipod for TKIV 2000</Portuguese>
-        <Russian>Bipod for TKIV 2000</Russian>
-        <German>Bipod for TKIV 2000</German>
+        <Original>Bipod for TKiv 2000</Original>
+        <English>Bipod for TKiv 2000</English>
+        <Czech>Bipod for TKiv 2000</Czech>
+        <French>Bipod for TKiv 2000</French>
+        <Spanish>Bipod for TKiv 2000</Spanish>
+        <Italian>Bipod for TKiv 2000</Italian>
+        <Polish>Bipod for TKiv 2000</Polish>
+        <Portuguese>Bipod for TKiv 2000</Portuguese>
+        <Russian>Bipod for TKiv 2000</Russian>
+        <German>Bipod for TKiv 2000</German>
       </Key>
       <Key ID="STR_fin_vv2000_sidemount">
         <Original>NVS VV2000</Original>
@@ -258,30 +258,55 @@
         <Russian>Night Vision Sight VV2000 <br/>Magnification: 1x</Russian>
         <German>Night Vision Sight VV2000 <br/>Magnification: 1x</German>
       </Key>
-      <Key ID="STR_fin_ta11">
-        <Original>Acog TA11F</Original>
-        <English>Acog TA11F</English>
-        <Czech>Acog TA11F</Czech>
-        <French>Acog TA11F</French>
-        <Spanish>Acog TA11F</Spanish>
-        <Italian>Acog TA11F</Italian>
-        <Polish>Acog TA11F</Polish>
-        <Portuguese>Acog TA11F</Portuguese>
-        <Russian>Acog TA11F</Russian>
-        <German>Acog TA11F</German>
+      <Key ID="STR_fin_ta11_3d">
+        <Original>Acog TA11F (3D)</Original>
+        <English>Acog TA11F (3D)</English>
+        <Czech>Acog TA11F (3D)</Czech>
+        <French>Acog TA11F (3D)</French>
+        <Spanish>Acog TA11F (3D)</Spanish>
+        <Italian>Acog TA11F (3D)</Italian>
+        <Polish>Acog TA11F (3D)</Polish>
+        <Portuguese>Acog TA11F (3D)</Portuguese>
+        <Russian>Acog TA11F (3D)</Russian>
+        <German>Acog TA11F (3D)</German>
       </Key>
-      <Key ID="STR_desc_fin_ta11">
-        <Original>TA11F <br/>Magnification: 3.5x</Original>
-        <English>TA11F <br/>Magnification: 3.5x</English>
-        <Czech>TA11F <br/>Magnification: 3.5x</Czech>
-        <French>TA11F <br/>Magnification: 3.5x</French>
-        <Spanish>TA11F <br/>Magnification: 3.5x</Spanish>
-        <Italian>TA11F <br/>Magnification: 3.5x</Italian>
-        <Polish>TA11F <br/>Magnification: 3.5x</Polish>
-        <Portuguese>TA11F <br/>Magnification: 3.5x</Portuguese>
-        <Russian>TA11F <br/>Magnification: 3.5x</Russian>
-        <German>TA11F <br/>Magnification: 3.5x</German>
+      <Key ID="STR_fin_ta11_2d">
+        <Original>Acog TA11F (2D)</Original>
+        <English>Acog TA11F (2D)</English>
+        <Czech>Acog TA11F (2D)</Czech>
+        <French>Acog TA11F (2D)</French>
+        <Spanish>Acog TA11F (2D)</Spanish>
+        <Italian>Acog TA11F (2D)</Italian>
+        <Polish>Acog TA11F (2D)</Polish>
+        <Portuguese>Acog TA11F (2D)</Portuguese>
+        <Russian>Acog TA11F (2D)</Russian>
+        <German>Acog TA11F (2D)</German>
       </Key>
+      <Key ID="STR_desc_fin_ta11_3d">
+        <Original>TA11F (3D)<br/>Magnification: 3.5x</Original>
+        <English>TA11F (3D)<br/>Magnification: 3.5x</English>
+        <Czech>TA11F (3D)<br/>Magnification: 3.5x</Czech>
+        <French>TA11F (3D)<br/>Magnification: 3.5x</French>
+        <Spanish>TA11F (3D)<br/>Magnification: 3.5x</Spanish>
+        <Italian>TA11F (3D)<br/>Magnification: 3.5x</Italian>
+        <Polish>TA11F (3D)<br/>Magnification: 3.5x</Polish>
+        <Portuguese>TA11F (3D)<br/>Magnification: 3.5x</Portuguese>
+        <Russian>TA11F (3D)<br/>Magnification: 3.5x</Russian>
+        <German>TA11F (3D)<br/>Magnification: 3.5x</German>
+      </Key>
+      <Key ID="STR_desc_fin_ta11_2d">
+        <Original>TA11F (2D)<br/>Magnification: 3.5x</Original>
+        <English>TA11F (2D)<br/>Magnification: 3.5x</English>
+        <Czech>TA11F (2D)<br/>Magnification: 3.5x</Czech>
+        <French>TA11F (2D)<br/>Magnification: 3.5x</French>
+        <Spanish>TA11F (2D)<br/>Magnification: 3.5x</Spanish>
+        <Italian>TA11F (2D)<br/>Magnification: 3.5x</Italian>
+        <Polish>TA11F (2D)<br/>Magnification: 3.5x</Polish>
+        <Portuguese>TA11F (2D)<br/>Magnification: 3.5x</Portuguese>
+        <Russian>TA11F (2D)<br/>Magnification: 3.5x</Russian>
+        <German>TA11F (2D)<br/>Magnification: 3.5x</German>
+      </Key>
+      
 	  <Key ID="STR_fin_pp2004">
         <Original>RDS PP2004</Original>
         <English>RDS PP2004</English>
@@ -528,7 +553,7 @@
         <Russian>FDF crew helmet</Russian>
         <German>FDF crew helmet</German>
       </Key>
-	   <Key ID="STR_fin__peltor_comtacII">
+	   <Key ID="STR_fin_peltor_comtacII">
         <Original>Peltor Comtac II</Original>
         <English>Peltor Comtac II</English>
         <Czech>Peltor Comtac II</Czech>
@@ -589,6 +614,42 @@
         <German>M05 Composite helmet w/ ESS cover</German>
       </Key>
       <Key ID="STR_desc_fin_m05_Helmet">
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_Helmet_goggles">
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_Helmet_goggles_cov">
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_Helmet_peltor">
         <Original>Armor II</Original>
         <English>Armor II</English>
         <Czech>Armor II</Czech>
@@ -673,16 +734,28 @@
         <German>M05 Load-Bearing Vest (Leader)</German>
       </Key>
       <Key ID="STR_fin_m05_vest_pkm">
-        <Original>M05 Load-Bearing Vest (MG)</Original>
-        <English>M05 Load-Bearing Vest (MG)</English>
-        <Czech>M05 Load-Bearing Vest (MG)</Czech>
-        <French>M05 Load-Bearing Vest (MG)</French>
-        <Spanish>M05 Load-Bearing Vest (MG)</Spanish>
-        <Italian>M05 Load-Bearing Vest (MG)</Italian>
-        <Polish>M05 Load-Bearing Vest (MG)</Polish>
-        <Portuguese>M05 Load-Bearing Vest (MG)</Portuguese>
-        <Russian>M05 Load-Bearing Vest (MG)</Russian>
-        <German>M05 Load-Bearing Vest (MG)</German>
+        <Original>M05 Load-Bearing Vest (PKM)</Original>
+        <English>M05 Load-Bearing Vest (PKM)</English>
+        <Czech>M05 Load-Bearing Vest (PKM)</Czech>
+        <French>M05 Load-Bearing Vest (PKM)</French>
+        <Spanish>M05 Load-Bearing Vest (PKM)</Spanish>
+        <Italian>M05 Load-Bearing Vest (PKM)</Italian>
+        <Polish>M05 Load-Bearing Vest (PKM)</Polish>
+        <Portuguese>M05 Load-Bearing Vest (PKM)</Portuguese>
+        <Russian>M05 Load-Bearing Vest (PKM)</Russian>
+        <German>M05 Load-Bearing Vest (PKM)</German>
+      </Key>
+	  <Key ID="STR_fin_m05_vest_pkm_assistant">
+        <Original>M05 Load-Bearing Vest (PKM Assistant)</Original>
+        <English>M05 Load-Bearing Vest (PKM Assistant)</English>
+        <Czech>M05 Load-Bearing Vest (PKM Assistant)</Czech>
+        <French>M05 Load-Bearing Vest (PKM Assistant)</French>
+        <Spanish>M05 Load-Bearing Vest (PKM Assistant)</Spanish>
+        <Italian>M05 Load-Bearing Vest (PKM Assistant)</Italian>
+        <Polish>M05 Load-Bearing Vest (PKM Assistant)</Polish>
+        <Portuguese>M05 Load-Bearing Vest (PKM Assistant)</Portuguese>
+        <Russian>M05 Load-Bearing Vest (PKM Assistant)</Russian>
+        <German>M05 Load-Bearing Vest (PKM Assistant)</German>
       </Key>
       <Key ID="STR_fin_m05_vest_cls">
         <Original>M05 Load-Bearing Vest (Medic)</Original>
@@ -708,6 +781,54 @@
         <Russian>Armor I</Russian>
         <German>Armor I</German>
       </Key>
+      <Key ID="STR_desc_fin_m05_vest_ldr">
+        <Original>Armor I</Original>
+        <English>Armor I</English>
+        <Czech>Armor I</Czech>
+        <French>Armor I</French>
+        <Spanish>Armor I</Spanish>
+        <Italian>Armor I</Italian>
+        <Polish>Armor I</Polish>
+        <Portuguese>Armor I</Portuguese>
+        <Russian>Armor I</Russian>
+        <German>Armor I</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_vest_pkm">
+        <Original>Armor I</Original>
+        <English>Armor I</English>
+        <Czech>Armor I</Czech>
+        <French>Armor I</French>
+        <Spanish>Armor I</Spanish>
+        <Italian>Armor I</Italian>
+        <Polish>Armor I</Polish>
+        <Portuguese>Armor I</Portuguese>
+        <Russian>Armor I</Russian>
+        <German>Armor I</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_vest_pkm_assistant">
+        <Original>Armor I</Original>
+        <English>Armor I</English>
+        <Czech>Armor I</Czech>
+        <French>Armor I</French>
+        <Spanish>Armor I</Spanish>
+        <Italian>Armor I</Italian>
+        <Polish>Armor I</Polish>
+        <Portuguese>Armor I</Portuguese>
+        <Russian>Armor I</Russian>
+        <German>Armor I</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_vest_cls">
+        <Original>Armor I</Original>
+        <English>Armor I</English>
+        <Czech>Armor I</Czech>
+        <French>Armor I</French>
+        <Spanish>Armor I</Spanish>
+        <Italian>Armor I</Italian>
+        <Polish>Armor I</Polish>
+        <Portuguese>Armor I</Portuguese>
+        <Russian>Armor I</Russian>
+        <German>Armor I</German>
+      </Key>
       <Key ID="STR_fin_m05_vest_wflak_ldr">
         <Original>M05 Flak Jacket (Leader)</Original>
         <English>M05 Flak Jacket (Leader)</English>
@@ -721,16 +842,16 @@
         <German>M05 Flak Jacket (Leader)</German>
       </Key>
       <Key ID="STR_fin_m05_vest_wflak_rifleman">
-        <Original>M05 Flak Jacket (Rifleman)</Original>
-        <English>M05 Flak Jacket (Rifleman)</English>
-        <Czech>M05 Flak Jacket (Rifleman)</Czech>
-        <French>M05 Flak Jacket (Rifleman)</French>
-        <Spanish>M05 Flak Jacket (Rifleman)</Spanish>
-        <Italian>M05 Flak Jacket (Rifleman)</Italian>
-        <Polish>M05 Flak Jacket (Rifleman)</Polish>
-        <Portuguese>M05 Flak Jacket (Rifleman)</Portuguese>
-        <Russian>M05 Flak Jacket (Rifleman)</Russian>
-        <German>M05 Flak Jacket (Rifleman)</German>
+        <Original>M05 Flak Jacket</Original>
+        <English>M05 Flak Jacket</English>
+        <Czech>M05 Flak Jacket</Czech>
+        <French>M05 Flak Jacket</French>
+        <Spanish>M05 Flak Jacket</Spanish>
+        <Italian>M05 Flak Jacket</Italian>
+        <Polish>M05 Flak Jacket</Polish>
+        <Portuguese>M05 Flak Jacket</Portuguese>
+        <Russian>M05 Flak Jacket</Russian>
+        <German>M05 Flak Jacket</German>
       </Key>
 	   <Key ID="STR_fin_m05_vest_wflak_CLS">
         <Original>M05 Flak Jacket (CLS)</Original>
@@ -756,6 +877,18 @@
         <Russian>M05 Flak Jacket (PKM)</Russian>
         <German>M05 Flak Jacket (PKM)</German>
       </Key>
+      <Key ID="STR_fin_m05_vest_wflak_pkm_assistant">
+        <Original>M05 Flak Jacket (PKM Assistant)</Original>
+        <English>M05 Flak Jacket (PKM Assistant)</English>
+        <Czech>M05 Flak Jacket (PKM Assistant)</Czech>
+        <French>M05 Flak Jacket (PKM Assistant)</French>
+        <Spanish>M05 Flak Jacket (PKM Assistant)</Spanish>
+        <Italian>M05 Flak Jacket (PKM Assistant)</Italian>
+        <Polish>M05 Flak Jacket (PKM Assistant)</Polish>
+        <Portuguese>M05 Flak Jacket (PKM Assistant)</Portuguese>
+        <Russian>M05 Flak Jacket (PKM Assistant)</Russian>
+        <German>M05 Flak Jacket (PKM Assistant)</German>
+      </Key>
       <Key ID="STR_desc_fin_m05_vest_wflak_rifleman">
         <Original>Armor IV</Original>
         <English>Armor IV</English>
@@ -769,40 +902,208 @@
         <German>Armor IV</German>
       </Key>
 	  <Key ID="STR_desc_fin_m05_vest_wflak_PKM">
-        <Original>Armor IV</Original>
-        <English>Armor IV</English>
-        <Czech>Armor IV</Czech>
-        <French>Armor IV</French>
-        <Spanish>Armor IV</Spanish>
-        <Italian>Armor IV</Italian>
-        <Polish>Armor IV</Polish>
-        <Portuguese>Armor IV</Portuguese>
-        <Russian>Armor IV</Russian>
-        <German>Armor IV</German>
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
+      </Key>
+	  <Key ID="STR_desc_fin_m05_vest_wflak_PKM_assistant">
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
       </Key>
 	  <Key ID="STR_desc_fin_m05_vest_wflak_CLS">
-        <Original>Armor IV</Original>
-        <English>Armor IV</English>
-        <Czech>Armor IV</Czech>
-        <French>Armor IV</French>
-        <Spanish>Armor IV</Spanish>
-        <Italian>Armor IV</Italian>
-        <Polish>Armor IV</Polish>
-        <Portuguese>Armor IV</Portuguese>
-        <Russian>Armor IV</Russian>
-        <German>Armor IV</German>
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
       </Key>
 	   <Key ID="STR_desc_fin_m05_vest_wflak_ldr">
-        <Original>Armor IV</Original>
-        <English>Armor IV</English>
-        <Czech>Armor IV</Czech>
-        <French>Armor IV</French>
-        <Spanish>Armor IV</Spanish>
-        <Italian>Armor IV</Italian>
-        <Polish>Armor IV</Polish>
-        <Portuguese>Armor IV</Portuguese>
-        <Russian>Armor IV</Russian>
-        <German>Armor IV</German>
+        <Original>Armor II</Original>
+        <English>Armor II</English>
+        <Czech>Armor II</Czech>
+        <French>Armor II</French>
+        <Spanish>Armor II</Spanish>
+        <Italian>Armor II</Italian>
+        <Polish>Armor II</Polish>
+        <Portuguese>Armor II</Portuguese>
+        <Russian>Armor II</Russian>
+        <German>Armor II</German>
+      </Key>
+      <Key ID="STR_fin_m05_vest_wball_ldr">
+        <Original>M05 Ballistic Vest (Leader)</Original>
+        <English>M05 Ballistic Vest (Leader)</English>
+        <Czech>M05 Ballistic Vest (Leader)</Czech>
+        <French>M05 Ballistic Vest (Leader)</French>
+        <Spanish>M05 Ballistic Vest (Leader)</Spanish>
+        <Italian>M05 Ballistic Vest (Leader)</Italian>
+        <Polish>M05 Ballistic Vest (Leader)</Polish>
+        <Portuguese>M05 Ballistic Vest (Leader)</Portuguese>
+        <Russian>M05 Ballistic Vest (Leader)</Russian>
+        <German>M05 Ballistic Vest (Leader)</German>
+      </Key>
+      <Key ID="STR_fin_m05_vest_wball_rifleman">
+        <Original>M05 Ballistic Vest</Original>
+        <English>M05 Ballistic Vest</English>
+        <Czech>M05 Ballistic Vest</Czech>
+        <French>M05 Ballistic Vest</French>
+        <Spanish>M05 Ballistic Vest</Spanish>
+        <Italian>M05 Ballistic Vest</Italian>
+        <Polish>M05 Ballistic Vest</Polish>
+        <Portuguese>M05 Ballistic Vest</Portuguese>
+        <Russian>M05 Ballistic Vest</Russian>
+        <German>M05 Ballistic Vest</German>
+      </Key>
+	   <Key ID="STR_fin_m05_vest_wball_CLS">
+        <Original>M05 Ballistic Vest (CLS)</Original>
+        <English>M05 Ballistic Vest (CLS)</English>
+        <Czech>M05 Ballistic Vest (CLS)</Czech>
+        <French>M05 Ballistic Vest (CLS)</French>
+        <Spanish>M05 Ballistic Vest (CLS)</Spanish>
+        <Italian>M05 Ballistic Vest (CLS)</Italian>
+        <Polish>M05 Ballistic Vest (CLS)</Polish>
+        <Portuguese>M05 Ballistic Vest (CLS)</Portuguese>
+        <Russian>M05 Ballistic Vest (CLS)</Russian>
+        <German>M05 Ballistic Vest (CLS)</German>
+      </Key>
+	  <Key ID="STR_fin_m05_vest_wball_PKM">
+        <Original>M05 Ballistic Vest (PKM)</Original>
+        <English>M05 Ballistic Vest (PKM)</English>
+        <Czech>M05 Ballistic Vest (PKM)</Czech>
+        <French>M05 Ballistic Vest (PKM)</French>
+        <Spanish>M05 Ballistic Vest (PKM)</Spanish>
+        <Italian>M05 Ballistic Vest (PKM)</Italian>
+        <Polish>M05 Ballistic Vest (PKM)</Polish>
+        <Portuguese>M05 Ballistic Vest (PKM)</Portuguese>
+        <Russian>M05 Ballistic Vest (PKM)</Russian>
+        <German>M05 Ballistic Vest (PKM)</German>
+      </Key>
+      <Key ID="STR_fin_m05_vest_wball_pkm_assistant">
+        <Original>M05 Ballistic Vest (PKM Assistant)</Original>
+        <English>M05 Ballistic Vest (PKM Assistant)</English>
+        <Czech>M05 Ballistic Vest (PKM Assistant)</Czech>
+        <French>M05 Ballistic Vest (PKM Assistant)</French>
+        <Spanish>M05 Ballistic Vest (PKM Assistant)</Spanish>
+        <Italian>M05 Ballistic Vest (PKM Assistant)</Italian>
+        <Polish>M05 Ballistic Vest (PKM Assistant)</Polish>
+        <Portuguese>M05 Ballistic Vest (PKM Assistant)</Portuguese>
+        <Russian>M05 Ballistic Vest (PKM Assistant)</Russian>
+        <German>M05 Ballistic Vest (PKM Assistant)</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_vest_wball_rifleman">
+        <Original>Armor III</Original>
+        <English>Armor III</English>
+        <Czech>Armor III</Czech>
+        <French>Armor III</French>
+        <Spanish>Armor III</Spanish>
+        <Italian>Armor III</Italian>
+        <Polish>Armor III</Polish>
+        <Portuguese>Armor III</Portuguese>
+        <Russian>Armor III</Russian>
+        <German>Armor III</German>
+      </Key>
+	  <Key ID="STR_desc_fin_m05_vest_wball_PKM">
+        <Original>Armor III</Original>
+        <English>Armor III</English>
+        <Czech>Armor III</Czech>
+        <French>Armor III</French>
+        <Spanish>Armor III</Spanish>
+        <Italian>Armor III</Italian>
+        <Polish>Armor III</Polish>
+        <Portuguese>Armor III</Portuguese>
+        <Russian>Armor III</Russian>
+        <German>Armor III</German>
+      </Key>
+	  <Key ID="STR_desc_fin_m05_vest_wball_PKM_assistant">
+        <Original>Armor III</Original>
+        <English>Armor III</English>
+        <Czech>Armor III</Czech>
+        <French>Armor III</French>
+        <Spanish>Armor III</Spanish>
+        <Italian>Armor III</Italian>
+        <Polish>Armor III</Polish>
+        <Portuguese>Armor III</Portuguese>
+        <Russian>Armor III</Russian>
+        <German>Armor III</German>
+      </Key>
+	  <Key ID="STR_desc_fin_m05_vest_wball_CLS">
+        <Original>Armor III</Original>
+        <English>Armor III</English>
+        <Czech>Armor III</Czech>
+        <French>Armor III</French>
+        <Spanish>Armor III</Spanish>
+        <Italian>Armor III</Italian>
+        <Polish>Armor III</Polish>
+        <Portuguese>Armor III</Portuguese>
+        <Russian>Armor III</Russian>
+        <German>Armor III</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_vest_wball_ldr">
+        <Original>Armor III</Original>
+        <English>Armor III</English>
+        <Czech>Armor III</Czech>
+        <French>Armor III</French>
+        <Spanish>Armor III</Spanish>
+        <Italian>Armor III</Italian>
+        <Polish>Armor III</Polish>
+        <Portuguese>Armor III</Portuguese>
+        <Russian>Armor III</Russian>
+        <German>Armor III</German>
+      </Key>
+      <Key ID="STR_fin_m05_backpack_small">
+        <Original>M05 Backpack</Original>
+        <English>M05 Backpack</English>
+        <Czech>M05 Backpack</Czech>
+        <French>M05 Backpack</French>
+        <Spanish>M05 Backpack</Spanish>
+        <Italian>M05 Backpack</Italian>
+        <Polish>M05 Backpack</Polish>
+        <Portuguese>M05 Backpack</Portuguese>
+        <Russian>M05 Backpack</Russian>
+        <German>M05 Backpack</German>
+      </Key>
+      <Key ID="STR_s_fin_m05_backpack_small">
+        <Original>M05 Backpack</Original>
+        <English>M05 Backpack</English>
+        <Czech>M05 Backpack</Czech>
+        <French>M05 Backpack</French>
+        <Spanish>M05 Backpack</Spanish>
+        <Italian>M05 Backpack</Italian>
+        <Polish>M05 Backpack</Polish>
+        <Portuguese>M05 Backpack</Portuguese>
+        <Russian>M05 Backpack</Russian>
+        <German>M05 Backpack</German>
+      </Key>
+      <Key ID="STR_desc_fin_m05_backpack_small">
+        <Original>M05 Backpack</Original>
+        <English>M05 Backpack</English>
+        <Czech>M05 Backpack</Czech>
+        <French>M05 Backpack</French>
+        <Spanish>M05 Backpack</Spanish>
+        <Italian>M05 Backpack</Italian>
+        <Polish>M05 Backpack</Polish>
+        <Portuguese>M05 Backpack</Portuguese>
+        <Russian>M05 Backpack</Russian>
+        <German>M05 Backpack</German>
       </Key>
     </Container>
     <Container name ="units">
@@ -1131,28 +1432,28 @@
         <German>Medic</German>
       </Key>
       <Key ID="STR_fin_MG">
-        <Original>Machinegunner</Original>
-        <English>Machinegunner</English>
-        <Czech>Machinegunner</Czech>
-        <French>Machinegunner</French>
-        <Spanish>Machinegunner</Spanish>
-        <Italian>Machinegunner</Italian>
-        <Polish>Machinegunner</Polish>
-        <Portuguese>Machinegunner</Portuguese>
-        <Russian>Machinegunner</Russian>
-        <German>Machinegunner</German>
+        <Original>Machinegunner (PKM)</Original>
+        <English>Machinegunner (PKM)</English>
+        <Czech>Machinegunner (PKM)</Czech>
+        <French>Machinegunner (PKM)</French>
+        <Spanish>Machinegunner (PKM)</Spanish>
+        <Italian>Machinegunner (PKM)</Italian>
+        <Polish>Machinegunner (PKM)</Polish>
+        <Portuguese>Machinegunner (PKM)</Portuguese>
+        <Russian>Machinegunner (PKM)</Russian>
+        <German>Machinegunner (PKM)</German>
       </Key>
 	  <Key ID="STR_fin_MGa_PKM">
-        <Original>Machinegun assistant</Original>
-        <English>Machinegun assistant</English>
-        <Czech>Machinegun assistant</Czech>
-        <French>Machinegun assistant</French>
-        <Spanish>Machinegun assistant</Spanish>
-        <Italian>Machinegun assistant</Italian>
-        <Polish>Machinegun assistant</Polish>
-        <Portuguese>Machinegun assistant</Portuguese>
-        <Russian>Machinegun assistant</Russian>
-        <German>Machinegun assistant</German>
+        <Original>Machinegun Assistant(PKM)</Original>
+        <English>Machinegun Assistant(PKM)</English>
+        <Czech>Machinegun Assistant(PKM)</Czech>
+        <French>Machinegun Assistant(PKM)</French>
+        <Spanish>Machinegun Assistant(PKM)</Spanish>
+        <Italian>Machinegun Assistant(PKM)</Italian>
+        <Polish>Machinegun Assistant(PKM)</Polish>
+        <Portuguese>Machinegun Assistant(PKM)</Portuguese>
+        <Russian>Machinegun Assistant(PKM)</Russian>
+        <German>Machinegun Assistant(PKM)</German>
       </Key>
       <Key ID="STR_fin_SF_MG_M249">
         <Original>Machinegunner (M249)</Original>
@@ -1472,7 +1773,7 @@
       </Key>
       <Key ID="STR_s_fin_66kes12_rak_mag">
         <Original>HEDP</Original>
-        <English>HEDp</English>
+        <English>HEDP</English>
         <Czech>HEDP</Czech>
         <French>HEDP</French>
         <Spanish>HEDP</Spanish>
@@ -1495,28 +1796,28 @@
         <German>Used in: 66 KES 12 RAK</German>
       </Key>
       <Key ID="STR_fin_Apilas">
-        <Original>112 RSKSKO APILAS</Original>
-        <English>112 RSKSKO APILAS</English>
-        <Czech>112 RSKSKO APILAS</Czech>
-        <French>112 RSKSKO APILAS</French>
-        <Spanish>112 RSKSKO APILAS</Spanish>
-        <Italian>112 RSKSKO APILAS</Italian>
-        <Polish>112 RSKSKO APILAS</Polish>
-        <Portuguese>112 RSKSKO APILAS</Portuguese>
-        <Russian>112 RSKSKO APILAS</Russian>
-        <German>112 RSKSKO APILAS</German>
+        <Original>112 RsKES APILAS</Original>
+        <English>112 RsKES APILAS</English>
+        <Czech>112 RsKES APILAS</Czech>
+        <French>112 RsKES APILAS</French>
+        <Spanish>112 RsKES APILAS</Spanish>
+        <Italian>112 RsKES APILAS</Italian>
+        <Polish>112 RsKES APILAS</Polish>
+        <Portuguese>112 RsKES APILAS</Portuguese>
+        <Russian>112 RsKES APILAS</Russian>
+        <German>112 RsKES APILAS</German>
       </Key>
       <Key ID="STR_s_fin_Apilas">
-        <Original>112 RSKSKO APILAS</Original>
-        <English>112 RSKSKO APILAS</English>
-        <Czech>112 RSKSKO APILAS</Czech>
-        <French>112 RSKSKO APILAS</French>
-        <Spanish>112 RSKSKO APILAS</Spanish>
-        <Italian>112 RSKSKO APILAS</Italian>
-        <Polish>112 RSKSKO APILAS</Polish>
-        <Portuguese>112 RSKSKO APILAS</Portuguese>
-        <Russian>112 RSKSKO APILAS</Russian>
-        <German>112 RSKSKO APILAS</German>
+        <Original>112 RsKES APILAS</Original>
+        <English>112 RsKES APILAS</English>
+        <Czech>112 RsKES APILAS</Czech>
+        <French>112 RsKES APILAS</French>
+        <Spanish>112 RsKES APILAS</Spanish>
+        <Italian>112 RsKES APILAS</Italian>
+        <Polish>112 RsKES APILAS</Polish>
+        <Portuguese>112 RsKES APILAS</Portuguese>
+        <Russian>112 RsKES APILAS</Russian>
+        <German>112 RsKES APILAS</German>
       </Key>
       <Key ID="STR_desc_fin_Apilas">
         <Original>112mm single-shot rocket launcher</Original>
@@ -1531,28 +1832,28 @@
         <German>112mm single-shot rocket launcher</German>
       </Key>
 	   <Key ID="STR_fin_pkm">
-        <Original>7.62 KK PKM</Original>
-        <English>7.62 KK PKM</English>
-        <Czech>7.62 KK PKM</Czech>
-        <French>7.62 KK PKM</French>
-        <Spanish>7.62 KK PKM</Spanish>
-        <Italian>7.62 KK PKM</Italian>
-        <Polish>7.62 KK PKM</Polish>
-        <Portuguese>7.62 KK PKM</Portuguese>
-        <Russian>7.62 KK PKM</Russian>
-        <German>7.62 KK PKM</German>
+        <Original>PKM</Original>
+        <English>PKM</English>
+        <Czech>PKM</Czech>
+        <French>PKM</French>
+        <Spanish>PKM</Spanish>
+        <Italian>PKM</Italian>
+        <Polish>PKM</Polish>
+        <Portuguese>PKM</Portuguese>
+        <Russian>PKM</Russian>
+        <German>PKM</German>
       </Key>
       <Key ID="STR_s_fin_pkm">
-        <Original>7.62 KK PKM</Original>
-        <English>7.62 KK PKM</English>
-        <Czech>7.62 KK PKM</Czech>
-        <French>7.62 KK PKM</French>
-        <Spanish>7.62 KK PKM</Spanish>
-        <Italian>7.62 KK PKM</Italian>
-        <Polish>7.62 KK PKM</Polish>
-        <Portuguese>7.62 KK PKM</Portuguese>
-        <Russian>7.62 KK PKM</Russian>
-        <German>7.62 KK PKM</German>
+        <Original>PKM</Original>
+        <English>PKM</English>
+        <Czech>PKM</Czech>
+        <French>PKM</French>
+        <Spanish>PKM</Spanish>
+        <Italian>PKM</Italian>
+        <Polish>PKM</Polish>
+        <Portuguese>PKM</Portuguese>
+        <Russian>PKM</Russian>
+        <German>PKM</German>
       </Key>
       <Key ID="STR_desc_fin_pkm">
         <Original>7.62 PKM machine gun</Original>
@@ -1565,42 +1866,6 @@
         <Portuguese>7.62 PKM machine gun</Portuguese>
         <Russian>7.62 PKM machine gun</Russian>
         <German>7.62 PKM machine gun</German>
-      </Key>
-	  	   <Key ID="STR_fin_kvkk">
-        <Original>7.62 KvKK 62</Original>
-        <English>7.62 KvKK 62</English>
-        <Czech>7.62 KvKK 62</Czech>
-        <French>7.62 KvKK 62</French>
-        <Spanish>7.62 KvKK 62</Spanish>
-        <Italian>7.62 KvKK 62</Italian>
-        <Polish>7.62 KvKK 62</Polish>
-        <Portuguese>7.62 KvKK 62</Portuguese>
-        <Russian>7.62 KvKK 62</Russian>
-        <German>7.62 KvKK 62</German>
-      </Key>
-      <Key ID="STR_s_fin_kvkk">
-        <Original>7.62 KvKK 62</Original>
-        <English>7.62 KvKK 62</English>
-        <Czech>7.62 KvKK 62</Czech>
-        <French>7.62 KvKK 62</French>
-        <Spanish>7.62 KvKK 62</Spanish>
-        <Italian>7.62 KvKK 62</Italian>
-        <Polish>7.62 KvKK 62</Polish>
-        <Portuguese>7.62 KvKK 62</Portuguese>
-        <Russian>7.62 KvKK 62</Russian>
-        <German>7.62 KvKK 62</German>
-      </Key>
-      <Key ID="STR_desc_fin_kvkk">
-        <Original>7.62 KvKK 62  machine gun</Original>
-        <English>7.62 KvKK 62 machine gun</English>
-        <Czech>7.62 KvKK 62 machine gun</Czech>
-        <French>7.62 KvKK 62 machine gun</French>
-        <Spanish>7.62 KvKK 62 machine gun</Spanish>
-        <Italian>7.62 KvKK 62 machine gun</Italian>
-        <Polish>7.62 KvKK 62 machine gun</Polish>
-        <Portuguese>7.62 KvKK 62 machine gun</Portuguese>
-        <Russian>7.62 KvKK 62 machine gun</Russian>
-        <German>7.62 KvKK 62 machine gun</German>
       </Key>
       <Key ID="STR_fin_Apilas_Used">
         <Original>Used 112 RsKES APILAS</Original>
@@ -1914,101 +2179,29 @@
         <Russian>100rnd magazine for PKM</Russian>
         <German>100rnd magazine for PKM</German>
       </Key>
-	  <Key ID="STR_fin_100Rnd_pkm_mag_Tracer">
-        <Original>7.62x54mm 100Rnd PKM Tracer Mag</Original>
-        <English>7.62x54mm 100Rnd PKM Tracer Mag</English>
-        <Czech>7.62x54mm 100Rnd PKM Tracer Mag</Czech>
-        <French>7.62x54mm 100Rnd PKM Tracer Mag</French>
-        <Spanish>7.62x54mm 100Rnd PKM Tracer Mag</Spanish>
-        <Italian>7.62x54mm 100Rnd PKM Tracer Mag</Italian>
-        <Polish>7.62x54mm 100Rnd PKM Tracer Mag</Polish>
-        <Portuguese>7.62x54mm 100Rnd PKM Tracer Mag</Portuguese>
-        <Russian>7.62x54mm 100Rnd PKM Tracer Mag</Russian>
-        <German>7.62x54mm 100Rnd PKM Tracer Mag</German>
-      </Key>
-      <Key ID="STR_s_fin_100Rnd_pkm_mag_Tracer">
-        <Original>7.62x54mm Tracers</Original>
-        <English>7.62x54mm Tracers</English>
-        <Czech>7.62x54mm Tracers</Czech>
-        <French>7.62x54mm Tracers</French>
-        <Spanish>7.62x54mm Tracers</Spanish>
-        <Italian>7.62x54mm Tracers</Italian>
-        <Polish>7.62x54mm Tracers</Polish>
-        <Portuguese>7.62x54mm Tracers</Portuguese>
-        <Russian>7.62x54mm Tracers</Russian>
-        <German>7.62x54mm Tracers</German>
-      </Key>
-      <Key ID="STR_desc_fin_100Rnd_KvKK_mag_Tracer">
-        <Original>Tracer magazine for KvKK 62</Original>
-        <English>Tracer magazine for KvKK 62</English>
-        <Czech>Tracer magazine for KvKK 62</Czech>
-        <French>Tracer magazine for KvKK 62</French>
-        <Spanish>Tracer magazine for KvKK 62</Spanish>
-        <Italian>Tracer magazine for KvKK 62</Italian>
-        <Polish>Tracer magazine for KvKK 62</Polish>
-        <Portuguese>Tracer magazine for KvKK 62</Portuguese>
-        <Russian>Tracer magazine for KvKK 62</Russian>
-        <German>Tracer magazine for KvKK 62</German>
-      </Key>
-	  <Key ID="STR_fin_100Rnd_KvKK_mag">
-        <Original>7.62x39mm 100Rnd KvKK 62 Mag</Original>
-        <English>7.62x39mm 100Rnd KvKK 62 Mag</English>
-        <Czech>7.62x39mm 100Rnd KvKK 62 Mag</Czech>
-        <French>7.62x39mm 100Rnd KvKK 62 Mag</French>
-        <Spanish>7.62x39mm 100Rnd KvKK 62 Mag</Spanish>
-        <Italian>7.62x39mm 100Rnd KvKK 62 Mag</Italian>
-        <Polish>7.62x39mm 100Rnd KvKK 62 Mag</Polish>
-        <Portuguese>7.62x39mm 100Rnd KvKK 62 Mag</Portuguese>
-        <Russian>7.62x39mm 100Rnd KvKK 62 Mag</Russian>
-        <German>7.62x39mm 100Rnd KvKK 62 Mag</German>
-      </Key>
-      <Key ID="STR_s_fin_100Rnd_KvKK_mag">
-        <Original>7.62x39mm</Original>
-        <English>7.62x39mm</English>
-        <Czech>7.62x39mm</Czech>
-        <French>7.62x39mm</French>
-        <Spanish>7.62x39mm</Spanish>
-        <Italian>7.62x39mm</Italian>
-        <Polish>7.62x39mm</Polish>
-        <Portuguese>7.62x39mm</Portuguese>
-        <Russian>7.62x39mm</Russian>
-        <German>7.62x39mm</German>
-      </Key>
-      <Key ID="STR_desc_fin_100Rnd_KvKK_mag">
-        <Original>100rnd magazine for KvKK 62</Original>
-        <English>100rnd magazine for KvKK 62</English>
-        <Czech>100rnd magazine for KvKK 62</Czech>
-        <French>100rnd magazine for KvKK 62</French>
-        <Spanish>100rnd magazine for KvKK 62</Spanish>
-        <Italian>100rnd magazine for KvKK 62</Italian>
-        <Polish>100rnd magazine for KvKK 62</Polish>
-        <Portuguese>100rnd magazine for KvKK 62</Portuguese>
-        <Russian>100rnd magazine for KvKK 62</Russian>
-        <German>100rnd magazine for KvKK 62</German>
-      </Key>
       <Key ID="STR_fin_Rk62">
-        <Original>7.62 RK 62</Original>
-        <English>7.62 RK 62</English>
-        <Czech>7.62 RK 62</Czech>
-        <French>7.62 RK 62</French>
-        <Spanish>7.62 RK 62</Spanish>
-        <Italian>7.62 RK 62</Italian>
-        <Polish>7.62 RK 62</Polish>
-        <Portuguese>7.62 RK 62</Portuguese>
-        <Russian>7.62 RK 62</Russian>
-        <German>7.62 RK 62</German>
+        <Original>Rk 62</Original>
+        <English>Rk 62</English>
+        <Czech>Rk 62</Czech>
+        <French>Rk 62</French>
+        <Spanish>Rk 62</Spanish>
+        <Italian>Rk 62</Italian>
+        <Polish>Rk 62</Polish>
+        <Portuguese>Rk 62</Portuguese>
+        <Russian>Rk 62</Russian>
+        <German>Rk 62</German>
       </Key>
       <Key ID="STR_s_fin_Rk62">
-        <Original>7.62 RK 62</Original>
-        <English>7.62 RK 62</English>
-        <Czech>7.62 RK 62</Czech>
-        <French>7.62 RK 62</French>
-        <Spanish>7.62 RK 62</Spanish>
-        <Italian>7.62 RK 62</Italian>
-        <Polish>7.62 RK 62</Polish>
-        <Portuguese>7.62 RK 62</Portuguese>
-        <Russian>7.62 RK 62</Russian>
-        <German>7.62 RK 62</German>
+        <Original>Rk 62</Original>
+        <English>Rk 62</English>
+        <Czech>Rk 62</Czech>
+        <French>Rk 62</French>
+        <Spanish>Rk 62</Spanish>
+        <Italian>Rk 62</Italian>
+        <Polish>Rk 62</Polish>
+        <Portuguese>Rk 62</Portuguese>
+        <Russian>Rk 62</Russian>
+        <German>Rk 62</German>
       </Key>
       <Key ID="STR_desc_fin_Rk62">
         <Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</Original>
@@ -2023,28 +2216,28 @@
         <German>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</German>
       </Key>
       <Key ID="STR_fin_Rk95">
-        <Original>7.62 RK 95 TP</Original>
-        <English>7.62 RK 95 TP</English>
-        <Czech>7.62 RK 95 TP</Czech>
-        <French>7.62 RK 95 TP</French>
-        <Spanish>7.62 RK 95 TP</Spanish>
-        <Italian>7.62 RK 95 TP</Italian>
-        <Polish>7.62 RK 95 TP</Polish>
-        <Portuguese>7.62 RK 95 TP</Portuguese>
-        <Russian>7.62 RK 95 TP</Russian>
-        <German>7.62 RK 95 TP</German>
+        <Original>Rk 95 TP</Original>
+        <English>Rk 95 TP</English>
+        <Czech>Rk 95 TP</Czech>
+        <French>Rk 95 TP</French>
+        <Spanish>Rk 95 TP</Spanish>
+        <Italian>Rk 95 TP</Italian>
+        <Polish>Rk 95 TP</Polish>
+        <Portuguese>Rk 95 TP</Portuguese>
+        <Russian>Rk 95 TP</Russian>
+        <German>Rk 95 TP</German>
       </Key>
       <Key ID="STR_s_fin_Rk95">
-        <Original>7.62 RK 95 TP</Original>
-        <English>7.62 RK 95 TP</English>
-        <Czech>7.62 RK 95 TP</Czech>
-        <French>7.62 RK 95 TP</French>
-        <Spanish>7.62 RK 95 TP</Spanish>
-        <Italian>7.62 RK 95 TP</Italian>
-        <Polish>7.62 RK 95 TP</Polish>
-        <Portuguese>7.62 RK 95 TP</Portuguese>
-        <Russian>7.62 RK 95 TP</Russian>
-        <German>7.62 RK 95 TP</German>
+        <Original>Rk 95 TP</Original>
+        <English>Rk 95 TP</English>
+        <Czech>Rk 95 TP</Czech>
+        <French>Rk 95 TP</French>
+        <Spanish>Rk 95 TP</Spanish>
+        <Italian>Rk 95 TP</Italian>
+        <Polish>Rk 95 TP</Polish>
+        <Portuguese>Rk 95 TP</Portuguese>
+        <Russian>Rk 95 TP</Russian>
+        <German>Rk 95 TP</German>
       </Key>
       <Key ID="STR_desc_fin_Rk95">
         <Original>Assault Rifle&lt;br /&gt;Caliber: 7.62x39 mm</Original>
@@ -2567,16 +2760,16 @@
   <Package name="fin_tkiv_c">
    <Container name="names">
 		<Key ID="STR_fin_tkiv2000">
-	 <Original>8.6 TKIV 2000</Original>
-     <English>8.6 TKIV 2000</English>
-     <Czech>8.6 TKIV 2000</Czech>
-     <French>8.6 TKIV 2000</French>
-     <Spanish>8.6 TKIV 2000</Spanish>
-     <Italian>8.6 TKIV 2000</Italian>
-     <Polish>8.6 TKIV 2000</Polish>
-     <Portuguese>8.6 TKIV 2000</Portuguese>
-     <Russian>8.6 TKIV 2000</Russian>
-     <German>8.6 TKIV 2000</German>
+	 <Original>TRG-42</Original>
+     <English>TRG-42</English>
+     <Czech>TRG-42</Czech>
+     <French>TRG-42</French>
+     <Spanish>TRG-42</Spanish>
+     <Italian>TRG-42</Italian>
+     <Polish>TRG-42</Polish>
+     <Portuguese>TRG-42</Portuguese>
+     <Russian>TRG-42</Russian>
+     <German>TRG-42</German>
 		</Key>
 		<Key ID="STR_desc_fin_tkiv2000">
 	 <Original>Sniper Rifle<br/>Caliber: 8.6x70 mm</Original>
@@ -2591,28 +2784,28 @@
      <German>Sniper Rifle<br/>Caliber: 8.6x70 mm</German>
 		</Key>
 	 <Key ID="STR_s_fin_tkiv2000">
-	 <Original>8.6 TKIV 2000</Original>
-     <English>8.6 TKIV 2000</English>
-     <Czech>8.6 TKIV 2000</Czech>
-     <French>8.6 TKIV 2000</French>
-     <Spanish>8.6 TKIV 2000</Spanish>
-     <Italian>8.6 TKIV 2000</Italian>
-     <Polish>8.6 TKIV 2000</Polish>
-     <Portuguese>8.6 TKIV 2000</Portuguese>
-     <Russian>8.6 TKIV 2000</Russian>
-     <German>8.6 TKIV 2000</German>
+	 <Original>TRG-42</Original>
+     <English>TRG-42</English>
+     <Czech>TRG-42</Czech>
+     <French>TRG-42</French>
+     <Spanish>TRG-42</Spanish>
+     <Italian>TRG-42</Italian>
+     <Polish>TRG-42</Polish>
+     <Portuguese>TRG-42</Portuguese>
+     <Russian>TRG-42</Russian>
+     <German>TRG-42</German>
 		</Key>
 	 <Key ID="STR_fin_5Rnd_TKiv2000_mag">
-        <Original>8.6x70mm 5Rnd TKIV 2000 Mag</Original>
-        <English>8.6x70mm 5Rnd TKIV 2000 Mag</English>
-        <Czech>8.6x70mm 5Rnd TKIV 2000 Mag</Czech>
-        <French>8.6x70mm 5Rnd TKIV 2000 Mag</French>
-        <Spanish>8.6x70mm 5Rnd TKIV 2000 Mag</Spanish>
-        <Italian>8.6x70mm 5Rnd TKIV 2000 Mag</Italian>
-        <Polish>8.6x70mm 5Rnd TKIV 2000 Mag</Polish>
-        <Portuguese>8.6x70mm 5Rnd TKIV 2000 Mag</Portuguese>
-        <Russian>8.6x70mm 5Rnd TKIV 2000 Mag</Russian>
-        <German>8.6x70mm 5Rnd TKIV 2000 Mag</German>
+        <Original>8.6x70mm 5Rnd TKiv 2000 Mag</Original>
+        <English>8.6x70mm 5Rnd TKiv 2000 Mag</English>
+        <Czech>8.6x70mm 5Rnd TKiv 2000 Mag</Czech>
+        <French>8.6x70mm 5Rnd TKiv 2000 Mag</French>
+        <Spanish>8.6x70mm 5Rnd TKiv 2000 Mag</Spanish>
+        <Italian>8.6x70mm 5Rnd TKiv 2000 Mag</Italian>
+        <Polish>8.6x70mm 5Rnd TKiv 2000 Mag</Polish>
+        <Portuguese>8.6x70mm 5Rnd TKiv 2000 Mag</Portuguese>
+        <Russian>8.6x70mm 5Rnd TKiv 2000 Mag</Russian>
+        <German>8.6x70mm 5Rnd TKiv 2000 Mag</German>
       </Key>
       <Key ID="STR_s_fin_5Rnd_TKiv2000_mag">
         <Original>8.6x70mm</Original>
@@ -2627,16 +2820,16 @@
         <German>8.6x70mm</German>
       </Key>
       <Key ID="STR_desc_fin_5Rnd_TKiv2000_mag">
-        <Original>Magazine for TKIV 2000</Original>
-        <English>Magazine for TKIV 2000</English>
-        <Czech>Magazine for TKIV 2000</Czech>
-        <French>Magazine for TKIV 2000</French>
-        <Spanish>Magazine for TKIV 2000</Spanish>
-        <Italian>Magazine for TKIV 2000</Italian>
-        <Polish>Magazine for TKIV 2000</Polish>
-        <Portuguese>Magazine for TKIV 2000</Portuguese>
-        <Russian>Magazine for TKIV 2000</Russian>
-        <German>Magazine for TKIV 2000</German>
+        <Original>Magazine for TKiv 2000</Original>
+        <English>Magazine for TKiv 2000</English>
+        <Czech>Magazine for TKiv 2000</Czech>
+        <French>Magazine for TKiv 2000</French>
+        <Spanish>Magazine for TKiv 2000</Spanish>
+        <Italian>Magazine for TKiv 2000</Italian>
+        <Polish>Magazine for TKiv 2000</Polish>
+        <Portuguese>Magazine for TKiv 2000</Portuguese>
+        <Russian>Magazine for TKiv 2000</Russian>
+        <German>Magazine for TKiv 2000</German>
       </Key>
     </Container>
   </Package>

@@ -30,8 +30,7 @@ class fin_66kes_base : Launcher_Base_F
 	midRangeProbab = 0.7;
 	maxRange = 250;
 	maxRangeProbab = 0.1;
-
-	weaponInfoType = "fin_rsc_disposable";
+	weaponInfoType = "RscWeaponZeroing";
 	modelOptics = "-";
 	optics = 0;
 	opticsID = 2;
@@ -89,6 +88,7 @@ class fin_66kes88: fin_66kes_base
 	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
 		mass = 72.1;		//3.27 kg - rocket weight 4 lbs		//79 pounds - http://www.smallarmsreview.com/display.article.cfm?idarticles=1240
+		allowedSlots[] = {901};
 	};
 };
 class fin_66kes88_Used : fin_66kes88
@@ -135,6 +135,7 @@ class fin_66kes12 : fin_66kes_base
 	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
 		mass = 70.5;		//3.4 kg - rocket weight x lbs // TODO
+		allowedSlots[] = {901};
 	};
 };
 
@@ -161,11 +162,12 @@ class fin_66kes12_Used : fin_66kes12
 		mass = 48.5;		// -x		// TODO
 	};
 };
-/*
+
 class fin_66kes12_rak_Used : fin_66kes12
 {
 	AuthNameMacro(fin_66kes12_rak_Used)
 	scope = 1;
+	fin_disposable_launcher = 0;
 	magazines[] = { "fin_dummy_mag" };
 	model = "FinMod\addons\fin_launchers\66kesXX\kes12_used.p3d";
 	class WeaponSlotsInfo
@@ -173,4 +175,4 @@ class fin_66kes12_rak_Used : fin_66kes12
 		mass = 55.2;		// -x		// TODO
 	};
 };
-*/
+

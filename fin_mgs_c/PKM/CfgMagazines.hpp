@@ -4,8 +4,7 @@ class fin_100Rnd_pkm_mag: CA_Magazine
 	AuthNameMacro(fin_100Rnd_pkm_mag)
 	//descriptionMacro(fin_100rnd_PKM_mag)
 	picture = "\FinMod\addons\fin_mgs\PKM\data\UI\pkm_mag_ca.paa"; /// just some icon
-	model = "\FinMod\addons\fin_mgs\PKM\PKM_Magazine.p3d";
-	mass = 60;
+	mass = 50;
 
 	ammo = fin_B_762x54mmR_Ball;
 	count = 100;

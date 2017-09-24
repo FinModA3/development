@@ -4,8 +4,8 @@ class CfgPatches
 	class fin_throwables_c
 	{
 		units[]={};
-		weapons[]={"fin_Throw_Grenade","fin_Throw_Smoke"};
-		magazines[] = {"fin_frag_mag","fin_smoke_white","fin_smoke_white","fin_smoke_white","fin_smoke_red"};
+		weapons[]={"fin_fraggrenade_Muzzle","fin_smoke_white_Muzzle", "fin_smoke_green_Muzzle", "fin_smoke_blue_Muzzle", "fin_smoke_red_Muzzle"};
+		magazines[] = {"fin_fraggrenade","fin_smoke_white","fin_smoke_white","fin_smoke_white","fin_smoke_red"};
 		ammo[] = {"fin_frag_ammo","fin_smoke_ammo_white","fin_smoke_ammo_green","fin_smoke_ammo_blue","fin_smoke_ammo_red"};
 		author = $STR_FinMod_Author;
 		requiredVersion=0.5;
@@ -47,14 +47,14 @@ class CfgMagazines
 {
 	class HandGrenade;
 	class SmokeShell;
-	class fin_fraggrenade : HandGrenade 
+	class fin_fraggrenade : HandGrenade
 	{
 		scope = 2;
 		ammo = "fin_frag_ammo";
 		AuthNameMacro(fin_fraggrenade)
 		picture = "\FinMod\addons\fin_throwables\data\ui\gear_fin_frag.paa";
 		model = "FinMod\addons\fin_throwables\fin_frag";
-		mass = 8.8;
+		mass = 5;
 	};
 	class fin_smoke_white : SmokeShell
 	{
@@ -63,9 +63,7 @@ class CfgMagazines
 		AuthNameMacro(fin_smoke_white)
 		picture = "\FinMod\addons\fin_throwables\data\ui\gear_fin_smoke_white.paa";
 		model = "FinMod\addons\fin_throwables\fin_smoke";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = { "FinMod\addons\fin_throwables\data\smoke\smoke_white_co.paa" };
-		mass = 8.8;
+		mass = 5;
 	};
 		class fin_smoke_green : fin_smoke_white
 	{
@@ -73,8 +71,6 @@ class CfgMagazines
 		AuthNameMacro(fin_smoke_green)
 		picture = "\FinMod\addons\fin_throwables\data\ui\gear_fin_smoke_green.paa";
 		model = "FinMod\addons\fin_throwables\fin_smoke_green";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = { "FinMod\addons\fin_throwables\data\smoke\smoke_green_co.paa" };
 	};
 	class fin_smoke_blue : fin_smoke_white
 	{
@@ -82,8 +78,6 @@ class CfgMagazines
 		AuthNameMacro(fin_smoke_blue)
 		picture = "\FinMod\addons\fin_throwables\data\ui\gear_fin_smoke_blue.paa";
 		model = "FinMod\addons\fin_throwables\fin_smoke_blue";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = { "FinMod\addons\fin_throwables\data\smoke\smoke_blue_co.paa" };
 	};
 	class fin_smoke_red : fin_smoke_white
 	{
@@ -91,8 +85,6 @@ class CfgMagazines
 		AuthNameMacro(fin_smoke_red)
 		picture = "\FinMod\addons\fin_throwables\data\ui\gear_fin_smoke_red.paa";
 		model = "FinMod\addons\fin_throwables\fin_smoke_red";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = { "FinMod\addons\fin_throwables\data\smoke\smoke_red_co.paa" };
 	};
 };
 
@@ -101,15 +93,27 @@ class CfgWeapons
 	class GrenadeLauncher;
 	class Throw: GrenadeLauncher
 	{
-		muzzles[] += {"fin_Throw_Grenade","fin_Throw_Smoke"};
+		muzzles[] += {"fin_fraggrenade_Muzzle","fin_smoke_white_Muzzle", "fin_smoke_green_Muzzle", "fin_smoke_blue_Muzzle", "fin_smoke_red_Muzzle"};
 		class ThrowMuzzle: GrenadeLauncher{};
-		class fin_Throw_Grenade: ThrowMuzzle
+		class fin_fraggrenade_Muzzle: ThrowMuzzle
 		{
 			magazines[] = {"fin_fraggrenade"};
 		};
-		class fin_Throw_Smoke: ThrowMuzzle
+		class fin_smoke_white_Muzzle: ThrowMuzzle
 		{
-			magazines[] = {"fin_smoke_white","fin_smoke_red","fin_smoke_green","fin_smoke_blue"};
+			magazines[] = {"fin_smoke_white"};
+		};
+		class fin_smoke_green_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {"fin_smoke_green"};
+		};
+		class fin_smoke_blue_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {"fin_smoke_blue"};
+		};
+		class fin_smoke_red_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {"fin_smoke_red"};
 		};
 	};
 };

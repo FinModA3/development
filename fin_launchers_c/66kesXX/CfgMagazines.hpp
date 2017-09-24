@@ -34,5 +34,4 @@ class fin_66kes12_rak_mag : fin_66kes12_mag
 	AuthNameMacro(fin_66kes12_rak_mag)
 	//picture = "\A3\Weapons_F\launchers\RPG32\data\UI\gear_rpg32_rocket_ca.paa";
 	ammo = "fin_66kes12_rak_R";
-	initSpeed = 170;
 };

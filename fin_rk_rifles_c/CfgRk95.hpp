@@ -2,9 +2,8 @@ class fin_Rk95 : fin_rk_rifle_base
 {
 	scope = 2;
 	AuthNameMacro(fin_Rk95)
-	//descriptionMacro(fin_Rk95)
 	model = "FinMod\addons\fin_rk_rifles\rk95.p3d";
-	picture = "\FinMod\addons\fin_rk_rifles\data\UI\gear_rk95_x_ca.paa"; /// different accessories have M, S, T instead of X
+	picture = "\FinMod\addons\fin_rk_rifles\data\UI\gear_rk95_ca.paa"; /// different accessories have M, S, T instead of X
 
 	ACE_barrelLength = 420;
 	class Library
@@ -15,7 +14,15 @@ class fin_Rk95 : fin_rk_rifle_base
 	{
 		mass = 81.57; //8.16 lb == 3.7 kg
 		allowedSlots[] = { 901 };
-		class CowsSlot : asdg_OpticRail1913_short {};
+
+		class CowsSlot : asdg_OpticRail1913_short /// Top slot
+		{
+			iconPosition[] = { 0.5498046875, 0.25390625 };
+			iconScale = 0.15;												/// scale of icon described in iconPicture
+			iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa"; 	/// icon for selected slot
+			iconPinpoint = "Center"; 										/// top, bottom, left, right, center alignment of the icon on snap point
+		};
+		//class CowsSlot : asdg_OpticRail1913_short {};
 		class UnderBarrelSlot : asdg_UnderSlot {};
 		//class MuzzleSlot : asdg_MuzzleSlot_762R {};
 	};
@@ -87,7 +94,7 @@ class fin_rk95_ta11 : fin_Rk95
 		class LinkedItemsOptic
 		{
 			slot = "CowsSlot";
-			item = "fin_TA11";
+			item = "fin_TA11_3d";
 		};
 	};
 };
@@ -100,6 +107,18 @@ class fin_rk95_aimpoint2009 : fin_Rk95
 		{
 			slot = "CowsSlot";
 			item = "fin_pp09";
+		};
+	};
+};
+
+class fin_rk95_aimpoint2004 : fin_Rk95
+{
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = "CowsSlot";
+			item = "fin_pp04";
 		};
 	};
 };

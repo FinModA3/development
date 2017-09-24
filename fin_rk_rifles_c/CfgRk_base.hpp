@@ -8,7 +8,7 @@
 
 		//Animations
 		reloadAction = "GestureReloadRK"; 	// check rk_animations.hpp
-		handanim[] ={"OFP2_ManSkeleton","FinMod\addons\fin_rk_rifles\anim\HandAnim_rk62.rtm"};	
+		handanim[] ={"OFP2_ManSkeleton","FinMod\addons\fin_rk_rifles\anim\RK_Handanim_v1.rtm"};	
 		selectionFireAnim = "zasleh";
 		
 		//Deploy and bipod
@@ -22,7 +22,7 @@
 		opticsZoomInit=0.75;
 		
 		drySound[]={"FinMod\addons\fin_rk_rifles\sounds\RK_Dry.wav", db-5, 1, 20}; //	empty weapon
-		reloadMagazineSound[]={"FinMod\addons\fin_rk_rifles\sounds\rk_reload_done.wav",1,1,30};
+		reloadMagazineSound[]={"FinMod\addons\fin_rk_rifles\sounds\rk_lataus.wav",1,1,30};
 
 		changeFiremodeSound[] = {"FinMod\addons\fin_rk_rifles\sounds\RK_firemode.wav",0.56234133,1,20};	// selector
 

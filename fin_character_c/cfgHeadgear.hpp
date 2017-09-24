@@ -28,17 +28,13 @@ class fin_m05_Helmet: H_HelmetB
 	_generalMacro = "fin_m05_Helmet";
 	AuthNameMacro(fin_m05_Helmet)
 	picture = "\FinMod\addons\fin_character\data\UI\ui_m05_helmet.paa";
-	model   = "\FinMod\addons\fin_character\m05helmet.p3d";
-	hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "", "", "" };
+	model   = "FinMod\addons\fin_character\m05helmet.p3d";
 	class ItemInfo : HeadgearItem
 	{
 		mass = 24;
-		uniformModel = "\FinMod\addons\fin_character\m05helmet.p3d";
+		uniformModel = "FinMod\addons\fin_character\m05helmet.p3d";
 		allowedSlots[] = {UNIFORM_SLOT, BACKPACK_SLOT, VEST_SLOT, HEADGEAR_SLOT};	/// this cap is so small and flexible that it fits everywhere
 		modelSides[] = { 3, 2 };
-		hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "", "", "" };
 
 		class HitpointsProtectionInfo
 		{
@@ -51,40 +47,34 @@ class fin_m05_Helmet: H_HelmetB
 		};
 	};		
 };
-class fin_m05_Helmet_goggles: fin_m05_helmet
+class fin_m05_Helmet_goggles : fin_m05_Helmet
 {
+	scope = 2;
 	AuthNameMacro(fin_m05_Helmet_goggles)
-	hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "\FinMod\addons\fin_character\data\headgear\ESS_co.paa", "", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+	model = "FinMod\addons\fin_character\m05helmet_ess.p3d";
 	class ItemInfo : ItemInfo
 	{
-		picture = "\FinMod\addons\fin_character\data\UI\ui_m05_goggles.paa";
-		hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "\FinMod\addons\fin_character\data\headgear\ESS_co.paa", "", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+		uniformModel   = "FinMod\addons\fin_character\m05helmet_ess.p3d";
 	};
 };
-class fin_m05_Helmet_goggles_cov: fin_m05_helmet
+class fin_m05_Helmet_goggles_cov: fin_m05_Helmet
 {
+	scope = 2;
 	AuthNameMacro(fin_m05_Helmet_goggles_cov)
-	hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "\FinMod\addons\fin_character\data\headgear\ESS_co.paa", "\FinMod\addons\fin_character\data\headgear\ESSCover_co.paa", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+	model = "FinMod\addons\fin_character\m05helmet_ess_cover.p3d";
 	class ItemInfo : ItemInfo
 	{
-		picture = "\FinMod\addons\fin_character\data\UI\ui_m05_goggles_cov.paa";
-		hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "\FinMod\addons\fin_character\data\headgear\ESS_co.paa", "\FinMod\addons\fin_character\data\headgear\ESSCover_co.paa", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+		uniformModel   = "FinMod\addons\fin_character\m05helmet_ess_cover.p3d";
 	};
 };
-class fin_m05_Helmet_peltor: fin_m05_helmet
+class fin_m05_Helmet_peltor: fin_m05_Helmet
 {
+	scope = 2;
 	AuthNameMacro(fin_m05_Helmet_peltor)
-	hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "", "", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+	model = "FinMod\addons\fin_character\m05helmet_peltors.p3d";
 	class ItemInfo : ItemInfo
 	{
-		picture = "\FinMod\addons\fin_character\data\UI\ui_m05_peltor.paa";
-		hiddenSelections[] = { "camo1", "ESS", "ESS_Cover", "Peltors" };
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\headgear\m05helmet_co.paa", "", "", "\FinMod\addons\fin_character\data\headgear\peltor_co.paa" };
+		uniformModel   = "FinMod\addons\fin_character\m05helmet_peltors.p3d";
 	};
 };
 

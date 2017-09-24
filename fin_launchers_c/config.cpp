@@ -26,22 +26,23 @@ class CfgFunctions
 		};
 	};
 };
-/*
-class Extended_AnimDone_Eventhandlers
+
+class Extended_InitPost_Eventhandlers
 {
-	class CAManBase
+	// Remove given rocket magazine from human players. See fin_rsc_disposable and fn_reload.sqf
+	class Man
 	{
-		class fin_launchers_disposable_reload
+		class fin_launchers_disposable
 		{
-			onRespawn = 1;
-			AnimDone = "if (hasInterface) then {_this call fin_launchers_fnc_reload;};";// && (_this select 1 == 'amovpercmstpsraswrfldnon_amovpercmstpsraswlnrdnon_end' || _this select 1 == 'amovpknlmstpsraswrfldnon_amovpknlmstpsraswlnrdnon_end')
+			onRespawn = false;
+			init = "_this call fin_launchers_fnc_reload;";
 		};
 	};
 };
-*/
+
 class Extended_FiredBIS_Eventhandlers
 {
-	class CAManBase
+	class Man
 	{
 		class fin_launchers_disposable_fired
 		{
@@ -49,25 +50,17 @@ class Extended_FiredBIS_Eventhandlers
 		};
 	};
 };
-
+/*
 class RscInGameUI
 {
-	/*
-	class RHS_Flashlight
-	{
-	idd = 3005;
-	onLoad = "['onLoad',_this,'RscUnitInfo','IGUI'] call (uinamespace getvariable 'BIS_fnc_initDisplay'); call rhs_fnc_accCombo";
-	};
-	*/
-
-	// Same as normal zeroing info, but onLoad method used for giving launcher rocket to disposable launcher
+	// Same as normal zeroing info, but onLoad method used for giving launcher rocket to _HUMAN_ player's disposable launcher
 	class RscWeaponZeroing;
 	class fin_rsc_disposable : RscWeaponZeroing
 	{
 		onLoad = "['onLoad',_this,'RscUnitInfo','IGUI'] call (uinamespace getvariable 'BIS_fnc_initDisplay'); _this call fin_launchers_fnc_reload;";
 	};
 };
-
+*/
 /// All firemodes, to be sure
 class Mode_SemiAuto;
 class Mode_FullAuto;

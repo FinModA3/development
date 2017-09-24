@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.32;
-		requiredAddons[] = {"A3_Data_F","A3_Structures_F_Mil_Flags","A3_UI_F","ram_core","cba_main","bg_weaponframework"};
+		requiredAddons[] = {"A3_Data_F","A3_Structures_F_Mil_Flags","A3_UI_F","cba_main"};
 		author = $STR_FinMod_Author;
 		magazines[] = {};
 		ammo[] = {};

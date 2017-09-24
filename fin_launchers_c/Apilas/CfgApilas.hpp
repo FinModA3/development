@@ -36,7 +36,7 @@
 	maxRangeProbab = 0.04;
 	
 	modelOptics = "FinMod\addons\fin_launchers\Apilas\optic_apilas";
-	weaponInfoType = "fin_rsc_disposable";
+	weaponInfoType = "RscWeaponZeroing";
 	class OpticsModes
 	{
 		class optic
@@ -71,6 +71,7 @@
 	class WeaponSlotsInfo
 	{
 		mass = 199;
+		allowedSlots[] = {};
 	};
 	class ItemInfo
 	{
@@ -90,7 +91,7 @@ class fin_Apilas_Used : fin_Apilas
 	AuthNameMacro(fin_Apilas_Used)
 	//descriptionMacro(fin_Apilas_Used)
 	model = "FinMod\addons\fin_launchers\Apilas\apilas_used.p3d";
-	class WeaponSlotsInfo
+	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
 		mass = 104;
 	};

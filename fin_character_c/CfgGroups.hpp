@@ -71,7 +71,7 @@ class CfgGroups
 					class Unit7
 					{
 						side = 2;
-						vehicle = "fin_MG_PKM";
+						vehicle = "fin_MG_PKM2";
 						rank = "Private";
 						position[] = { 20,-20,0 };
 					};
@@ -170,6 +170,7 @@ class CfgGroups
 						position[] = { 5,-5,0 };
 					};
 				};
+
 				class fin_squad3
 				{
 					author = "$STR_FinMod_Author";

@@ -24,7 +24,7 @@ class fin_vv2000_sidemount : ItemCore
 					opticsZoomMax = 0.75;
 					opticsZoomInit = 0.75;
 					memoryPointCamera = "opticView";
-					visionMode[] = { "NVG" };
+					visionMode[] = { "Normal","NVG" };
 					ACE_NightVision_grain = 0.75;	// GEN 3, korjaa ACE yhteensopivuus, t‰‰ ei toiminu
 					ACE_NightVision_blur = 0.055;
 					ACE_NightVision_radBlur = 0.001;
@@ -33,6 +33,24 @@ class fin_vv2000_sidemount : ItemCore
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
 					cameraDir = "";
+				};
+
+				class Cqb
+				{
+
+					opticsID = 1;
+					useModelOptics = 0;
+					opticsPPEffects[] = { "" };
+					opticsFlare = 0;
+					opticsDisablePeripherialVision = 0;
+					opticsZoomMin = 0.25;
+					opticsZoomMax = 1.25;
+					opticsZoomInit = 0.75;
+					memoryPointCamera = "eye";
+					visionMode[] = {};
+					distanceZoomMin = 200;
+					distanceZoomMax = 200;
+
 				};
 			};
 		};

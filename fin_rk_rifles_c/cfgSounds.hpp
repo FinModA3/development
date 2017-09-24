@@ -7,13 +7,13 @@ class CfgSoundShaders
 		{
 			
 			{ 
-				"FinMod\addons\fin_rk_rifles\sounds\rk_Closure.wav", 
+				"FinMod\addons\fin_rk_rifles\sounds\rk_slide.wav", 
 				1 
 			}
 		
 			
 		};
-		volume = 0;
+		volume = 0.5;
 		range = 5;
 	};	
 
@@ -24,15 +24,15 @@ class CfgSoundShaders
 	{
 		samples[] = // array of actual samples with probability weight, engine will randomly select one sample with no immediate repeat within SoundShader
 		{
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_1_1.wav",1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_1.wav",1 },
 			
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_2_2.wav",1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_2.wav",1 },
 
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_3_3.wav",1 }
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_close\rk62_3.wav",1 }
 			
 		};	
 		
-		volume = 1.5; // basic sound level value in dBFS (or actual sound level value) db6~2, db-6~0.5, simple expressions with sound controllers can be used
+		volume = 2; // basic sound level value in dBFS (or actual sound level value) db6~2, db-6~0.5, simple expressions with sound controllers can be used
 		range = 175; // maximum range in meters where sound is played
 		rangeCurve = closeShotCurve;
 		
@@ -43,16 +43,11 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid6_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid7_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid8_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid9_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid10_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid11_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid12_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid15_4.wav", 1 }
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_1.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_2.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_3.wav", 1 }
 		};
-		volume = 4;
+		volume = 3;
 		range = 3000;
 		rangeCurve[]=
 		{
@@ -67,14 +62,9 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist8.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist9.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist10.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist11.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist12.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist13.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist14.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist15.wav", 1 }
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_1.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_2.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_3.wav", 1 }
 		};
 		volume = 6;
 		range = 3000;
@@ -93,22 +83,18 @@ class CfgSoundShaders
 		samples[] = // array of actual samples with probability weight, engine will randomly select one sample with no immediate repeat within SoundShader
 		{
 			{ 
-				"FinMod\addons\fin_rk_rifles\sounds\RK95\shots_close\rk95_1_1.wav", 
+				"FinMod\addons\fin_rk_rifles\sounds\RK95\shots_close\rk95_1.wav", 
 				1 
 			},
 			
 			{ 
-				"FinMod\addons\fin_rk_rifles\sounds\RK95\shots_close\rk95_2_2.wav", 
-				1 
-			},
-
-			{ 
-				"FinMod\addons\fin_rk_rifles\sounds\RK95\shots_close\rk95_3_3.wav", 
+				"FinMod\addons\fin_rk_rifles\sounds\RK95\shots_close\rk95_2.wav", 
 				1 
 			}
+
 			
 		};
-		volume = 1.5; // basic sound level value in dBFS (or actual sound level value) db6~2, db-6~0.5, simple expressions with sound controllers can be used
+		volume = 2; // basic sound level value in dBFS (or actual sound level value) db6~2, db-6~0.5, simple expressions with sound controllers can be used
 		range = 175; // maximum range in meters where sound is played
 		rangeCurve = closeShotCurve;
 		
@@ -121,14 +107,9 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid6_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid7_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid8_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid9_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid10_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid11_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid12_4.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid15_4.wav", 1 }
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_1.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_2.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_mid\rk_mid_3.wav", 1 }
 		};
 		volume = 4;
 		range = 3000;
@@ -145,14 +126,9 @@ class CfgSoundShaders
 	{
 		samples[] =
 		{
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist8.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist9.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist10.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist11.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist12.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist13.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist14.wav", 1 },
-			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist15.wav", 1 }
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_1.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_2.wav", 1 },
+			{ "FinMod\addons\fin_rk_rifles\sounds\RK62\shots_distant\rk_dist_3.wav", 1 }
 		};
 		volume = 6;
 		range = 3000;
@@ -228,7 +204,7 @@ class CfgSoundSets
 		};
 
 		volumeFactor = 1.35; // volume multiplicator factor
-		volumeCurve="InverseSquare3Curve";
+		volumeCurve="InverseSquare2Curve";
 		sound3DProcessingType = "fin_RK_Shot3DProcessingType"; // sound processing type class name (CfgSound3DProcessors)
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter"; // class name of custom distance frequency attenuation filter (CfgDistanceFilters)
 		// spatial aina (ACEn syd‰mentykytys -> false, me ei tehd‰ varmaan yht‰‰n ei spatial ‰‰nt‰) edit: paitsi ehk‰ ajoneuvon sis‰ll‰ ‰‰net
@@ -237,7 +213,7 @@ class CfgSoundSets
 		doppler = 0; // doppler effect simulation
 		// loop = false: "This is WIP, not sure how it works, will add information as soon as the feature becomes more prevalent." -Wiki
 		loop = 0;
-		speedOfSound = 1;
+		
 	};
 	class fin_RK95_Shot_SoundSet
 	{
@@ -253,7 +229,7 @@ class CfgSoundSets
 		};
 
 		volumeFactor = 1.35; // volume multiplicator factor
-		volumeCurve="InverseSquare3Curve";
+		volumeCurve="InverseSquare2Curve";
 		sound3DProcessingType = "fin_RK_Shot3DProcessingType"; // sound processing type class name (CfgSound3DProcessors)
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter"; // class name of custom distance frequency attenuation filter (CfgDistanceFilters)
 																   // spatial aina (ACEn syd‰mentykytys -> false, me ei tehd‰ varmaan yht‰‰n ei spatial ‰‰nt‰) edit: paitsi ehk‰ ajoneuvon sis‰ll‰ ‰‰net
@@ -262,7 +238,7 @@ class CfgSoundSets
 		doppler = 0; // doppler effect simulation
 						 // loop = false: "This is WIP, not sure how it works, will add information as soon as the feature becomes more prevalent." -Wiki
 		loop = 0;
-		speedOfSound = 1;
+		
 	};
 	class fin_RK_Tail_SoundSet
 	{
@@ -275,20 +251,18 @@ class CfgSoundSets
 			"fin_RK_tailHouses_SoundShader"
 		};
 
-		soundShadersLimit = 3;		// Kuinka monta ‰‰nt‰ tarvitaan maksimissa kuulumaan? (sis‰tila-, mets‰-, yms. kaiut samaan aikaan)
+		soundShadersLimit = 2;		// Kuinka monta ‰‰nt‰ tarvitaan maksimissa kuulumaan? (sis‰tila-, mets‰-, yms. kaiut samaan aikaan)
 									// engine will play only soundShadersLimit number of SoundShaders with highest volume value (including calculation of rangeCurve) from the group of SoundShaders which has limitation parameter set to true plus all the others
 
-		volumeFactor = 1.05;
+		volumeFactor = 1;
 		volumeCurve = "InverseSquare2Curve";
-		frequencyRandomizerMin = 0.05; // parameters for randomization of frequency to avoid flanging effect when the same sounds are playing in high rate
-									   // Ylempi varmistaa, ett‰ kaksi samaa ‰‰nt‰ (2 laukausta) erotettavissa (eri taajuus == eri ‰‰ni)
-		frequencyRandomizer = 0.05;
+		frequencyRandomizer = 1;
 		sound3DProcessingType = "fin_RK_ShotTail3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
 		spatial = 1;
 		doppler = 0;
 		loop = 0;
-		speedOfSound = 1;
+		
 	};
 };
 

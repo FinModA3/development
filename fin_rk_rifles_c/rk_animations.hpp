@@ -56,33 +56,62 @@ class CfgMovesBasic // This defines the animation names so they may be retrieved
  	{
  		class GestureReloadRK : Default
  		{
- 			file = "FinMod\addons\fin_rk_rifles\anim\reload\ReloadAnim_rk.rtm";
-			speed = 0.22;
+ 			file = "FinMod\addons\fin_rk_rifles\anim\reload\RK_Reload_v4.rtm";
+			speed = 0.34;
 			looped = false;
 			mask = "handsWeapon";
 			headBobStrength=0.2;
 			headBobMode=2;
-			rightHandIKCurve[] = {1};
-			leftHandIKBeg = false;
-			leftHandIKCurve[] = {0, 1, 0.05, 0, 0.95, 0, 1, 1};
-			leftHandIKEnd = true;
 			canPullTrigger = 0;
+			rightHandIKBeg = true;
+			rightHandIKCurve[] =
+			{
+				// time, phase
+				0  , 1,
+				1  , 1
+			};
+			rightHandIKEnd = true;
+			
+			leftHandIKBeg = false;
+			leftHandIKCurve[] =
+			{
+				// time, phase
+				0  , 0,
+				1   , 0
+			};
+			leftHandIKEnd = false;
+			
  		};
+ 	
 		class GestureReloadRK_prone: Default
 		{
-			file = "FinMod\addons\fin_rk_rifles\anim\reload\ReloadAnim_rk_prone.rtm";
-            speed=0.22;
+			file = "FinMod\addons\fin_rk_rifles\anim\reload\RK_Reload_prone_v1.rtm";
+			speed = 0.34;
 			looped = false;
 			mask = "handsWeapon";
-			headBobStrength=0.02;
-            headBobMode=2;
-			rightHandIKCurve[] = {1};
-			leftHandIKBeg = false;
-			leftHandIKCurve[] = {0, 1, 0.05, 0, 0.95, 0, 1, 1};
-			leftHandIKEnd = true;
+			headBobStrength=0.2;
+			headBobMode=2;
 			canPullTrigger = 0;
-		};
-		class GestureReloadRK_Context: Default
+			rightHandIKBeg = true;
+			rightHandIKCurve[] =
+			{
+				// time, phase
+				0  , 1,
+				1  , 1
+			};
+			rightHandIKEnd = true;
+			
+			leftHandIKBeg = false;
+			leftHandIKCurve[] =
+			{
+				// time, phase
+				0  , 0,
+				1   , 0
+			};
+			leftHandIKEnd = false;
+			
+ 		};
+		class GestureReloadRK_Context: GestureReloadRK
 		{
 			mask = "handsWeapon_context";
 		};

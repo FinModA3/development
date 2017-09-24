@@ -3,7 +3,7 @@ class fin_B_762x54mmR_Ball: B_762x51_Ball
 {
 	hit = 11;
 	typicalSpeed = 718;
-	airFriction = -0.0008;
+	airFriction = -0.0018;
 	caliber = 0.55;
 	deflecting = 15;
 	visibleFire = 3;

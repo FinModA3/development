@@ -5,9 +5,7 @@ class fin_30Rnd_rk_mag: CA_Magazine
 	AuthNameMacro(fin_30Rnd_rk_mag)
 	//descriptionMacro(fin_30Rnd_rk_mag)
 	picture = "\FinMod\addons\fin_rk_rifles\data\UI\gear_mag30_rk_ca.paa"; /// just some icon
-	model = "\FinMod\addons\fin_rk_rifles\rk_magazine.p3d";
-	
-	mass = 19;
+	mass = 10;
 
 	ammo = fin_B_762x39_Ball;		//B_762x39_Ball
 	count = 30;

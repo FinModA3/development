@@ -1,16 +1,26 @@
-   class fin_ta11: Item_Base_F
+class fin_ta11_3d : Item_Base_F
+{
+	scope = 2;
+	scopeCurator = 2;
+	AuthNameMacro(fin_ta11_3d)
+	vehicleClass = "WeaponAccessories";
+	class TransportItems
 	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "TA11";
-		author = "FinMod";
-		vehicleClass = "WeaponAccessories";
-		class TransportItems
+		class fin_ta11_3d
 		{
-			class fin_ta11
-			{
-				name = "fin_ta11";
-				count = 1;
-			};
+			name = "fin_ta11_3d";
+			count = 1;
 		};
-	};    
+	};
+};
+class fin_ta11_2d : fin_ta11_3d
+{
+	class TransportItems
+	{
+		class fin_ta11_2d
+		{
+			name = "fin_ta11_2d";
+			count = 1;
+		};
+	};
+};

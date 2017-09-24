@@ -1,3 +1,4 @@
+
 class VestItem;
 class fin_VestItem : VestItem
 {
@@ -32,16 +33,11 @@ class fin_m05_vest_base: fin_vest_base
 	scope = 0;
 	picture = "\FinMod\addons\fin_character\data\UI\ui_m05_vest.paa";
 	model   = "FinMod\addons\fin_character\fin_m05_vest.p3d";
-	hiddenSelections[] = { "camo", "utility", "radio", "CLS", "CLS_utility", "pkm_mags" };
-	hiddenSelectionsTextures[] = { "", "", "", "", "", "" };
 
 	class ItemInfo: ItemInfo
 	{
 		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest.p3d"; /// what model does the vest use
-		hiddenSelections[] = { "camo", "utility", "radio", "CLS", "CLS_utility", "pkm_mags" };
-		hiddenSelectionsTextures[] = { "", "", "", "", "", "" };
-		containerClass = "Supply200";
-		LOAD(10,200) /// macro from basicdefines_A3.hpp
+		LOAD(60,80) /// macro from basicdefines_A3.hpp
 		armor = 2; /// what protection does the vest provide
 		passThrough = 0.7; /// coef of damage passed to total damage
 		class HitpointsProtectionInfo
@@ -49,20 +45,23 @@ class fin_m05_vest_base: fin_vest_base
 			class Chest
 			{
 				hitpointName = "HitChest";
-				armor = 8;
+				armor = 4;
 				passThrough = 0.1;
+				explosionShielding = 1;
 			};
 			class Diaphragm
 			{
 				hitpointName = "HitDiaphragm";
-				armor = 8;
+				armor = 4;
 				passThrough = 0.1;
+				explosionShielding = 1;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 8;
+				armor = 4;
 				passThrough = 0.1;
+				explosionShielding = 1;
 			};
 			class Body
 			{
@@ -77,44 +76,55 @@ class fin_m05_vest_rifleman : fin_m05_vest_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_rifleman)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "", "" };
+	model = "FinMod\addons\fin_character\fin_m05_vest_rifleman.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "", "" };
-		LOAD(10, 128)
+		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_rifleman.p3d";
+		LOAD(60, 80)
 	};
 };
 class fin_m05_vest_ldr : fin_m05_vest_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_ldr)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "" };
+	model = "FinMod\addons\fin_character\fin_m05_vest_ldr.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa, "", "", """ };
-		LOAD(10, 150)
+		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_ldr.p3d";
+		LOAD(60, 80)
 	};
 };
 class fin_m05_vest_pkm : fin_m05_vest_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_pkm)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa" };
+	model = "FinMod\addons\fin_character\fin_m05_vest_pkm.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa" };
-		LOAD(10, 180)
+		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_pkm.p3d";
+		LOAD(60, 180)
+	};
+};
+class fin_m05_vest_pkm_assistant : fin_m05_vest_base
+{
+	scope = 2;
+	AuthNameMacro(fin_m05_vest_pkm_assistant)
+	model = "FinMod\addons\fin_character\fin_m05_vest_pkm_assistant.p3d";
+	class ItemInfo : ItemInfo
+	{
+		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_pkm_assistant.p3d";
+		LOAD(60, 180)
 	};
 };
 class fin_m05_vest_cls : fin_m05_vest_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_cls)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "\FinMod\addons\fin_character\data\vests\CLS_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "" };
+	model = "FinMod\addons\fin_character\fin_m05_vest_CLS.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "", "\FinMod\addons\fin_character\data\vests\CLS_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "" };
-		LOAD(10, 130)
+		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_CLS.p3d";
+		LOAD(60, 100)
 	};
 };
 // m05 flak jacket
@@ -124,92 +134,112 @@ class fin_m05_vest_wflak_base : fin_vest_base
 	_generalMacro = "fin_m05_vest_wflak_base";
 	picture = "\FinMod\addons\fin_character\data\UI\ui_m05_sirparl.paa";
 	model = "FinMod\addons\fin_character\fin_m05_flak.p3d";
-	hiddenSelections[] = { "camo", "utility", "pkm_mags", "CLS" };
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa", "\FinMod\addons\fin_character\data\vests\CLS_co.paa" };
 	class ItemInfo : ItemInfo
 	{
 		uniformModel = "FinMod\addons\fin_character\fin_m05_flak.p3d";
-		containerClass = "Supply140";
-		LOAD(200, 140) /// macro from basicdefines_A3.hpp
+		LOAD(200, 80)
 		class HitpointsProtectionInfo
 		{
-			class Chest
+			class Neck
 			{
-				HitpointName = "HitChest";
-				armor = 20;
-				PassThrough = 0.2;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 20;
-				PassThrough = 0.2;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 20;
-				passThrough = 0.2;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.2;
+				hitpointName = "HitNeck"; // reference to the hit point class defined in the man base class
+				armor = 8; // addition to armor of referenced hitpoint
+				passThrough = 0.5; // multiplier of base passThrough defined in referenced hitpoint
 			};
 			class Arms
 			{
 				hitpointName = "HitArms";
-				armor = 4;
-				passThrough = 0.7;
+				armor = 8;
+				passThrough = 0.5;
+			};
+			class Chest
+			{
+				hitpointName = "HitChest";
+				armor = 64;
+				passThrough = 0.8;
+			};
+			class Diaphragm
+			{
+				hitpointName = "HitDiaphragm";
+				armor = 64;
+				passThrough = 0.8;
+			};
+			class Abdomen
+			{
+				hitpointName = "HitAbdomen";
+				armor = 16;
+				passThrough = 0.6;
+			};
+			class Body
+			{
+				hitpointName = "HitBody";
+				passThrough = 0.8;
 			};
 		};
-		hiddenSelections[] = { "camo", "utility", "pkm_mags", "CLS" };
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa", "\FinMod\addons\fin_character\data\vests\CLS_co.paa" };
+		
 	};
 };
 class fin_m05_vest_wflak_ldr : fin_m05_vest_wflak_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wflak_ldr)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "" };
+	model = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "" };
-	};
+		LOAD(200, 80)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
+	};	
 };
 
 class fin_m05_vest_wflak_rifleman: fin_m05_vest_wflak_base
 {	
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wflak_rifleman)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "" };
-	class ItemInfo:  ItemInfo 
+	model = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
+	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "", "" };
-	};
+		LOAD(200, 80)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
+	};	
 };
+/*
 class fin_m05_vest_wflak_pkm: fin_m05_vest_wflak_base
 {	
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wflak_pkm)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa", "" };
-
-	class ItemInfo:  ItemInfo 
+	model = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
+	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "\FinMod\addons\fin_character\data\vests\m05_vest_co.paa", "\FinMod\addons\fin_character\data\vests\pkm_mag_co.paa", "" };
+		LOAD(200, 80)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
+	};	
+};
+
+class fin_m05_vest_wflak_pkm_assistant : fin_m05_vest_wflak_base
+{
+	scope = 2;
+	AuthNameMacro(fin_m05_vest_wflak_pkm_assistant)
+		model = "FinMod\addons\fin_character\fin_m05_flak_pkm_assistant.p3d";
+	class ItemInfo : ItemInfo
+	{
+		LOAD(200, 180)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_pkm_assistant.p3d";
 	};
 };
+*/
 class fin_m05_vest_wflak_CLS: fin_m05_vest_wflak_base
 {	
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wflak_CLS)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "", "", "\FinMod\addons\fin_character\data\vests\CLS_co.paa" };
-	class ItemInfo:  ItemInfo 
+	model = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
+	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\vests\m05_flak_co.paa", "", "", "\FinMod\addons\fin_character\data\vests\CLS_co.paa" };
-	};
+		LOAD(200, 140)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
+	};	
 };
-/*
+
+
 // m05 ballistic vest
 class fin_m05_vest_wball_base : fin_m05_vest_wflak_base
 {
@@ -217,37 +247,43 @@ class fin_m05_vest_wball_base : fin_m05_vest_wflak_base
 	_generalMacro = "fin_m05_vest_wball_base";
 	class ItemInfo : ItemInfo
 	{
-		LOAD(400, 140) /// macro from basicdefines_A3.hpp
-			class HitpointsProtectionInfo
+		LOAD(280, 80) /// macro from basicdefines_A3.hpp
+		class HitpointsProtectionInfo
 		{
-			class Chest
+			class Neck
 			{
-				HitpointName = "HitChest";
-				armor = 20;
-				PassThrough = 0.2;
-			};
-			class Diaphragm
-			{
-				HitpointName = "HitDiaphragm";
-				armor = 20;
-				PassThrough = 0.2;
-			};
-			class Abdomen
-			{
-				hitpointName = "HitAbdomen";
-				armor = 20;
-				passThrough = 0.2;
-			};
-			class Body
-			{
-				hitpointName = "HitBody";
-				passThrough = 0.2;
+				hitpointName = "HitNeck"; // reference to the hit point class defined in the man base class
+				armor = 8; // addition to armor of referenced hitpoint
+				passThrough = 0.5; // multiplier of base passThrough defined in referenced hitpoint
 			};
 			class Arms
 			{
 				hitpointName = "HitArms";
-				armor = 4;
-				passThrough = 0.7;
+				armor = 8;
+				passThrough = 0.5;
+			};
+			class Chest
+			{
+				hitpointName = "HitChest";
+				armor = 16;
+				passThrough = 0.1;
+			};
+			class Diaphragm
+			{
+				hitpointName = "HitDiaphragm";
+				armor = 16;
+				passThrough = 0.1;
+			};
+			class Abdomen
+			{
+				hitpointName = "HitAbdomen";
+				armor = 16;
+				passThrough = 0.1;
+			};
+			class Body
+			{
+				hitpointName = "HitBody";
+				passThrough = 0.1;
 			};
 		};
 	};
@@ -256,40 +292,56 @@ class fin_m05_vest_wball_rifleman : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_rifleman)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+	model = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+		LOAD(280, 80)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
 	};
 };
 class fin_m05_vest_wball_ldr : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_ldr)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+	model = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+		LOAD(280, 80)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
 	};
 };
 class fin_m05_vest_wball_pkm : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_pkm)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+	model = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+		LOAD(280, 150)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
 	};
 };
+/*
+class fin_m05_vest_wball_pkm_assistant : fin_m05_vest_wball_base
+{
+	scope = 2;
+	AuthNameMacro(fin_m05_vest_wball_pkm_assistant)
+	model = "FinMod\addons\fin_character\fin_m05_flak_PKM_assistant.p3d";
+	class ItemInfo : ItemInfo
+	{
+		LOAD(280, 180)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM_assistant.p3d";
+	};
+};
+*/
 class fin_m05_vest_wball_CLS : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_CLS)
-	hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+	model = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
 	class ItemInfo : ItemInfo
 	{
-		hiddenSelectionsTextures[] = { "\FinMod\addons\fin_character\data\m05sirpa_co.paa" };
+		LOAD(280, 100)
+		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
 	};
 };
-*/

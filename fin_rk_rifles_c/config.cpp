@@ -43,6 +43,7 @@ class CfgMagazines
 class CfgWeapons
 {
 	class Rifle_Base_F;
+	class CowsSlot;
 	#include "cfgRk_base.hpp"
 	#include "cfgRk62.hpp"
 	#include "cfgRk95.hpp"

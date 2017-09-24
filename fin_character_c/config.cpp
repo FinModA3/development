@@ -6,6 +6,7 @@ class UniformSlotInfo;
 
 class CfgVehicles
 {
+	class B_FieldPack_oli;
 	class SoldierWB;
 	//Base class for BLUFOR soldiers
 	class Fin_Soldier_base_F: SoldierWB
@@ -249,7 +250,7 @@ class CfgVehicles
 	};
 	*/
 	#include "CfgUnits.hpp"
-
+	#include "cfgBackpack.hpp"	
 };
 
 class cfgWeapons

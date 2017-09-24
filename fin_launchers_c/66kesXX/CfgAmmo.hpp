@@ -20,7 +20,7 @@ class fin_kes_base : RocketBase
 	caliber = 0.1;			// Check
 	typicalspeed = 900;	// hit value is for this speed; proj_speed/typicalspeed * hit?
 	explosive = 0.35;
-	maxSpeed = 198;			// max speed for projectile
+	maxSpeed = 198;			// max speed for projectile. thrust cant accelerate speed over this
 
 	airFriction = 0.0;
 	sideAirFriction = 0.01;
@@ -84,16 +84,16 @@ class fin_66kes12_R : fin_kes_base
 	hit = 400;
 	indirectHit = 35;
 	indirectHitRange = 2;
-	maxSpeed = 200;			// max speed for projectile
+	//maxSpeed = 200;			// max speed for projectile
 	//model?
 };
 
-class fin_fin_66kes12_rak_R : fin_kes_base
+class fin_66kes12_rak_R : fin_kes_base
 {
 	AIAmmoUsageFlags = "64+128+256+512";				// Check armor setting, no need to fire on tanks if doesn't work
 	ais_ce_penetrators[] = { "fin_66kes12_hedp_penetrator" };		// Real armor mod, see https://forums.bistudio.com/topic/161885-real-armor-mod/page-16
 	hit = 220;
 	indirectHit = 35;
 	indirectHitRange = 5;
-	maxSpeed = 170;			// max speed for projectile
+	//maxSpeed = 170;			// max speed for projectile
 };

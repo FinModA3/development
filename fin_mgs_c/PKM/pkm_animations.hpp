@@ -108,6 +108,11 @@ class CfgMovesBasic // This defines the animation names so they may be retrieved
 			leftHandIKEnd = true;
 			
  		};
+		class GestureReloadPKM_Context: GestureReloadPKM
+		{
+			mask = "handsWeapon_context";
+		};
+		
 	};
 };
 
