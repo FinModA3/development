@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class fin_bmp2
+	class fin_bmp2_c
 	{
 		units[] = {"fin_bmp2"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"A3_Armor_F_Beta_APC_Tracked_02"};
+		requiredAddons[] = {"A3_Armor_F_Beta_APC_Tracked_02", "fin_bmp2"};
 	};
 };
 class CfgVehicles
