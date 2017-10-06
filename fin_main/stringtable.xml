@@ -184,7 +184,7 @@
       </Key>
     </Container>
   </Package>
-    <Package name="fin_accessories_c">
+  <Package name="fin_accessories_c">
     <Container name="names">
 	<Key ID="STR_fin_zeiss312x56">
         <Original>Zeiss Diavari V 3-12 x 56 T</Original>
@@ -354,6 +354,34 @@
         <Portuguese>PP2009 <br/>Magnification: 1x</Portuguese>
         <Russian>PP2009 <br/>Magnification: 1x</Russian>
         <German>PP2009 <br/>Magnification: 1x</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="fin_bmp2">
+    <Container name="names">
+      <Key ID="STR_fin_BMP2">
+        <Original>BMP2</Original>
+        <English>BMP2</English>
+        <Czech>BMP2</Czech>
+        <French>BMP2</French>
+        <Spanish>BMP2</Spanish>
+        <Italian>BMP2</Italian>
+        <Polish>BMP2</Polish>
+        <Portuguese>BMP2</Portuguese>
+        <Russian>BMP2</Russian>
+        <German>BMP2</German>
+      </Key>
+      <Key ID="STR_s_fin_BMP2">
+        <Original>BMP2</Original>
+        <English>BMP2</English>
+        <Czech>BMP2</Czech>
+        <French>BMP2</French>
+        <Spanish>BMP2</Spanish>
+        <Italian>BMP2</Italian>
+        <Polish>BMP2</Polish>
+        <Portuguese>BMP2</Portuguese>
+        <Russian>BMP2</Russian>
+        <German>BMP2</German>
       </Key>
     </Container>
   </Package>
@@ -1831,42 +1859,6 @@
         <Russian>112mm single-shot rocket launcher</Russian>
         <German>112mm single-shot rocket launcher</German>
       </Key>
-	   <Key ID="STR_fin_pkm">
-        <Original>PKM</Original>
-        <English>PKM</English>
-        <Czech>PKM</Czech>
-        <French>PKM</French>
-        <Spanish>PKM</Spanish>
-        <Italian>PKM</Italian>
-        <Polish>PKM</Polish>
-        <Portuguese>PKM</Portuguese>
-        <Russian>PKM</Russian>
-        <German>PKM</German>
-      </Key>
-      <Key ID="STR_s_fin_pkm">
-        <Original>PKM</Original>
-        <English>PKM</English>
-        <Czech>PKM</Czech>
-        <French>PKM</French>
-        <Spanish>PKM</Spanish>
-        <Italian>PKM</Italian>
-        <Polish>PKM</Polish>
-        <Portuguese>PKM</Portuguese>
-        <Russian>PKM</Russian>
-        <German>PKM</German>
-      </Key>
-      <Key ID="STR_desc_fin_pkm">
-        <Original>7.62 PKM machine gun</Original>
-        <English>7.62 PKM machine gun</English>
-        <Czech>7.62 PKM machine gun</Czech>
-        <French>7.62 PKM machine gun</French>
-        <Spanish>7.62 PKM machine gun</Spanish>
-        <Italian>7.62 PKM machine gun</Italian>
-        <Polish>7.62 PKM machine gun</Polish>
-        <Portuguese>7.62 PKM machine gun</Portuguese>
-        <Russian>7.62 PKM machine gun</Russian>
-        <German>7.62 PKM machine gun</German>
-      </Key>
       <Key ID="STR_fin_Apilas_Used">
         <Original>Used 112 RsKES APILAS</Original>
         <English>Used 112 RsKES APILAS</English>
@@ -1954,6 +1946,254 @@
         <Portuguese>Leopard 2A4</Portuguese>
         <Russian>Leopard 2A4</Russian>
         <German>Leopard 2A4</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="fin_md500">
+    <Container name="names">
+      <Key ID="STR_fin_md500">
+        <Original>MD 500</Original>
+        <English>MD 500</English>
+        <Czech>MD 500</Czech>
+        <French>MD 500</French>
+        <Spanish>MD 500</Spanish>
+        <Italian>MD 500</Italian>
+        <Polish>MD 500</Polish>
+        <Portuguese>MD 500</Portuguese>
+        <Russian>MD 500</Russian>
+        <German>MD 500</German>
+      </Key>
+      <Key ID="STR_s_fin_NH90">
+        <Original>MD 500</Original>
+        <English>MD 500</English>
+        <Czech>MD 500</Czech>
+        <French>MD 500</French>
+        <Spanish>MD 500</Spanish>
+        <Italian>MD 500</Italian>
+        <Polish>MD 500</Polish>
+        <Portuguese>MD 500</Portuguese>
+        <Russian>MD 500</Russian>
+        <German>MD 500</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="fin_mgs">
+    <Container name="names">
+      <Key ID="STR_fin_pkm">
+        <Original>PKM</Original>
+        <English>PKM</English>
+        <Czech>PKM</Czech>
+        <French>PKM</French>
+        <Spanish>PKM</Spanish>
+        <Italian>PKM</Italian>
+        <Polish>PKM</Polish>
+        <Portuguese>PKM</Portuguese>
+        <Russian>PKM</Russian>
+        <German>PKM</German>
+      </Key>
+      <Key ID="STR_s_fin_pkm">
+        <Original>PKM</Original>
+        <English>PKM</English>
+        <Czech>PKM</Czech>
+        <French>PKM</French>
+        <Spanish>PKM</Spanish>
+        <Italian>PKM</Italian>
+        <Polish>PKM</Polish>
+        <Portuguese>PKM</Portuguese>
+        <Russian>PKM</Russian>
+        <German>PKM</German>
+      </Key>
+      <Key ID="STR_desc_fin_pkm">
+        <Original>7.62 PKM machine gun</Original>
+        <English>7.62 PKM machine gun</English>
+        <Czech>7.62 PKM machine gun</Czech>
+        <French>7.62 PKM machine gun</French>
+        <Spanish>7.62 PKM machine gun</Spanish>
+        <Italian>7.62 PKM machine gun</Italian>
+        <Polish>7.62 PKM machine gun</Polish>
+        <Portuguese>7.62 PKM machine gun</Portuguese>
+        <Russian>7.62 PKM machine gun</Russian>
+        <German>7.62 PKM machine gun</German>
+      </Key>
+      <Key ID="STR_fin_100Rnd_pkm_mag_Tracer">
+        <Original>7.62x54mm 100Rnd PKM Tracer Mag</Original>
+        <English>7.62x54mm 100Rnd PKM Tracer Mag</English>
+        <Czech>7.62x54mm 100Rnd PKM Tracer Mag</Czech>
+        <French>7.62x54mm 100Rnd PKM Tracer Mag</French>
+        <Spanish>7.62x54mm 100Rnd PKM Tracer Mag</Spanish>
+        <Italian>7.62x54mm 100Rnd PKM Tracer Mag</Italian>
+        <Polish>7.62x54mm 100Rnd PKM Tracer Mag</Polish>
+        <Portuguese>7.62x54mm 100Rnd PKM Tracer Mag</Portuguese>
+        <Russian>7.62x54mm 100Rnd PKM Tracer Mag</Russian>
+        <German>7.62x54mm 100Rnd PKM Tracer Mag</German>
+      </Key>
+      <Key ID="STR_s_fin_100Rnd_pkm_mag_Tracer">
+        <Original>7.62x54mm Tracers</Original>
+        <English>7.62x54mm Tracers</English>
+        <Czech>7.62x54mm Tracers</Czech>
+        <French>7.62x54mm Tracers</French>
+        <Spanish>7.62x54mm Tracers</Spanish>
+        <Italian>7.62x54mm Tracers</Italian>
+        <Polish>7.62x54mm Tracers</Polish>
+        <Portuguese>7.62x54mm Tracers</Portuguese>
+        <Russian>7.62x54mm Tracers</Russian>
+        <German>7.62x54mm Tracers</German>
+      </Key>
+      <Key ID="STR_desc_fin_100Rnd_pkm_mag_Tracer">
+        <Original>Tracer magazine for PKM</Original>
+        <English>Tracer magazine for PKM</English>
+        <Czech>Tracer magazine for PKM</Czech>
+        <French>Tracer magazine for PKM</French>
+        <Spanish>Tracer magazine for PKM</Spanish>
+        <Italian>Tracer magazine for PKM</Italian>
+        <Polish>Tracer magazine for PKM</Polish>
+        <Portuguese>Tracer magazine for PKM</Portuguese>
+        <Russian>Tracer magazine for PKM</Russian>
+        <German>Tracer magazine for PKM</German>
+      </Key>
+      <Key ID="STR_fin_100Rnd_pkm_mag">
+        <Original>7.62x54mm 100Rnd PKM Mag</Original>
+        <English>7.62x54mm 100Rnd PKM Mag</English>
+        <Czech>7.62x54mm 100Rnd PKM Mag</Czech>
+        <French>7.62x54mm 100Rnd PKM Mag</French>
+        <Spanish>7.62x54mm 100Rnd PKM Mag</Spanish>
+        <Italian>7.62x54mm 100Rnd PKM Mag</Italian>
+        <Polish>7.62x54mm 100Rnd PKM Mag</Polish>
+        <Portuguese>7.62x54mm 100Rnd PKM Mag</Portuguese>
+        <Russian>7.62x54mm 100Rnd PKM Mag</Russian>
+        <German>7.62x54mm 100Rnd PKM Mag</German>
+      </Key>
+      <Key ID="STR_s_fin_100Rnd_pkm_mag">
+        <Original>7.62x54mm</Original>
+        <English>7.62x54mm</English>
+        <Czech>7.62x54mm</Czech>
+        <French>7.62x54mm</French>
+        <Spanish>7.62x54mm</Spanish>
+        <Italian>7.62x54mm</Italian>
+        <Polish>7.62x54mm</Polish>
+        <Portuguese>7.62x54mm</Portuguese>
+        <Russian>7.62x54mm</Russian>
+        <German>7.62x54mm</German>
+      </Key>
+      <Key ID="STR_desc_fin_100Rnd_pkm_mag">
+        <Original>100rnd magazine for PKM</Original>
+        <English>100rnd magazine for PKM</English>
+        <Czech>100rnd magazine for PKM</Czech>
+        <French>100rnd magazine for PKM</French>
+        <Spanish>100rnd magazine for PKM</Spanish>
+        <Italian>100rnd magazine for PKM</Italian>
+        <Polish>100rnd magazine for PKM</Polish>
+        <Portuguese>100rnd magazine for PKM</Portuguese>
+        <Russian>100rnd magazine for PKM</Russian>
+        <German>100rnd magazine for PKM</German>
+      </Key>
+      <Key ID="STR_fin_kvkk">
+        <Original>KVKK</Original>
+        <English>KVKK</English>
+        <Czech>KVKK</Czech>
+        <French>KVKK</French>
+        <Spanish>KVKK</Spanish>
+        <Italian>KVKK</Italian>
+        <Polish>KVKK</Polish>
+        <Portuguese>KVKK</Portuguese>
+        <Russian>KVKK</Russian>
+        <German>KVKK</German>
+      </Key>
+      <Key ID="STR_s_fin_KVKK">
+        <Original>KVKK</Original>
+        <English>KVKK</English>
+        <Czech>KVKK</Czech>
+        <French>KVKK</French>
+        <Spanish>KVKK</Spanish>
+        <Italian>KVKK</Italian>
+        <Polish>KVKK</Polish>
+        <Portuguese>KVKK</Portuguese>
+        <Russian>KVKK</Russian>
+        <German>KVKK</German>
+      </Key>
+      <Key ID="STR_desc_fin_KVKK">
+        <Original>7.62 KVKK light machine gun</Original>
+        <English>7.62 KVKK light machine gun</English>
+        <Czech>7.62 KVKK light machine gun</Czech>
+        <French>7.62 KVKK light machine gun</French>
+        <Spanish>7.62 KVKK light machine gun</Spanish>
+        <Italian>7.62 KVKK light machine gun</Italian>
+        <Polish>7.62 KVKK light machine gun</Polish>
+        <Portuguese>7.62 KVKK light machine gun</Portuguese>
+        <Russian>7.62 KVKK light machine gun</Russian>
+        <German>7.62 KVKK light machine gun</German>
+      </Key>
+      <Key ID="STR_fin_100Rnd_KVKK_mag_Tracer">
+        <Original>7.62x39mm 100Rnd KVKK Tracer Mag</Original>
+        <English>7.62x39mm 100Rnd KVKK Tracer Mag</English>
+        <Czech>7.62x39mm 100Rnd KVKK Tracer Mag</Czech>
+        <French>7.62x39mm 100Rnd KVKK Tracer Mag</French>
+        <Spanish>7.62x39mm 100Rnd KVKK Tracer Mag</Spanish>
+        <Italian>7.62x39mm 100Rnd KVKK Tracer Mag</Italian>
+        <Polish>7.62x39mm 100Rnd KVKK Tracer Mag</Polish>
+        <Portuguese>7.62x39mm 100Rnd KVKK Tracer Mag</Portuguese>
+        <Russian>7.62x39mm 100Rnd KVKK Tracer Mag</Russian>
+        <German>7.62x39mm 100Rnd KVKK Tracer Mag</German>
+      </Key>
+      <Key ID="STR_s_fin_100Rnd_KVKK_mag_Tracer">
+        <Original>7.62x39mm Tracers</Original>
+        <English>7.62x39mm Tracers</English>
+        <Czech>7.62x39mm Tracers</Czech>
+        <French>7.62x39mm Tracers</French>
+        <Spanish>7.62x39mm Tracers</Spanish>
+        <Italian>7.62x39mm Tracers</Italian>
+        <Polish>7.62x39mm Tracers</Polish>
+        <Portuguese>7.62x39mm Tracers</Portuguese>
+        <Russian>7.62x39mm Tracers</Russian>
+        <German>7.62x39mm Tracers</German>
+      </Key>
+      <Key ID="STR_desc_fin_100Rnd_KVKK_mag_Tracer">
+        <Original>Tracer magazine for KVKK</Original>
+        <English>Tracer magazine for KVKK</English>
+        <Czech>Tracer magazine for KVKK</Czech>
+        <French>Tracer magazine for KVKK</French>
+        <Spanish>Tracer magazine for KVKK</Spanish>
+        <Italian>Tracer magazine for KVKK</Italian>
+        <Polish>Tracer magazine for KVKK</Polish>
+        <Portuguese>Tracer magazine for KVKK</Portuguese>
+        <Russian>Tracer magazine for KVKK</Russian>
+        <German>Tracer magazine for KVKK</German>
+      </Key>
+      <Key ID="STR_fin_100Rnd_KVKK_mag">
+        <Original>7.62x39mm 100Rnd KVKK Mag</Original>
+        <English>7.62x39mm 100Rnd KVKK Mag</English>
+        <Czech>7.62x39mm 100Rnd KVKK Mag</Czech>
+        <French>7.62x39mm 100Rnd KVKK Mag</French>
+        <Spanish>7.62x39mm 100Rnd KVKK Mag</Spanish>
+        <Italian>7.62x39mm 100Rnd KVKK Mag</Italian>
+        <Polish>7.62x39mm 100Rnd KVKK Mag</Polish>
+        <Portuguese>7.62x39mm 100Rnd KVKK Mag</Portuguese>
+        <Russian>7.62x39mm 100Rnd KVKK Mag</Russian>
+        <German>7.62x39mm 100Rnd KVKK Mag</German>
+      </Key>
+      <Key ID="STR_s_fin_100Rnd_KVKK_mag">
+        <Original>7.62x39mm</Original>
+        <English>7.62x39mm</English>
+        <Czech>7.62x39mm</Czech>
+        <French>7.62x39mm</French>
+        <Spanish>7.62x39mm</Spanish>
+        <Italian>7.62x39mm</Italian>
+        <Polish>7.62x39mm</Polish>
+        <Portuguese>7.62x39mm</Portuguese>
+        <Russian>7.62x39mm</Russian>
+        <German>7.62x39mm</German>
+      </Key>
+      <Key ID="STR_desc_fin_100Rnd_KVKK_mag">
+        <Original>100rnd magazine for KVKK</Original>
+        <English>100rnd magazine for KVKK</English>
+        <Czech>100rnd magazine for KVKK</Czech>
+        <French>100rnd magazine for KVKK</French>
+        <Spanish>100rnd magazine for KVKK</Spanish>
+        <Italian>100rnd magazine for KVKK</Italian>
+        <Polish>100rnd magazine for KVKK</Polish>
+        <Portuguese>100rnd magazine for KVKK</Portuguese>
+        <Russian>100rnd magazine for KVKK</Russian>
+        <German>100rnd magazine for KVKK</German>
       </Key>
     </Container>
   </Package>
@@ -2106,78 +2346,6 @@
         <Portuguese>Tracer magazine for Rk 62 and Rk 95</Portuguese>
         <Russian>Tracer magazine for Rk 62 and Rk 95</Russian>
         <German>Tracer magazine for Rk 62 and Rk 95</German>
-      </Key>
-	  <Key ID="STR_fin_100Rnd_pkm_mag_Tracer">
-        <Original>7.62x54mm 100Rnd PKM Tracer Mag</Original>
-        <English>7.62x54mm 100Rnd PKM Tracer Mag</English>
-        <Czech>7.62x54mm 100Rnd PKM Tracer Mag</Czech>
-        <French>7.62x54mm 100Rnd PKM Tracer Mag</French>
-        <Spanish>7.62x54mm 100Rnd PKM Tracer Mag</Spanish>
-        <Italian>7.62x54mm 100Rnd PKM Tracer Mag</Italian>
-        <Polish>7.62x54mm 100Rnd PKM Tracer Mag</Polish>
-        <Portuguese>7.62x54mm 100Rnd PKM Tracer Mag</Portuguese>
-        <Russian>7.62x54mm 100Rnd PKM Tracer Mag</Russian>
-        <German>7.62x54mm 100Rnd PKM Tracer Mag</German>
-      </Key>
-      <Key ID="STR_s_fin_100Rnd_pkm_mag_Tracer">
-        <Original>7.62x54mm Tracers</Original>
-        <English>7.62x54mm Tracers</English>
-        <Czech>7.62x54mm Tracers</Czech>
-        <French>7.62x54mm Tracers</French>
-        <Spanish>7.62x54mm Tracers</Spanish>
-        <Italian>7.62x54mm Tracers</Italian>
-        <Polish>7.62x54mm Tracers</Polish>
-        <Portuguese>7.62x54mm Tracers</Portuguese>
-        <Russian>7.62x54mm Tracers</Russian>
-        <German>7.62x54mm Tracers</German>
-      </Key>
-      <Key ID="STR_desc_fin_100Rnd_pkm_mag_Tracer">
-        <Original>Tracer magazine for PKM</Original>
-        <English>Tracer magazine for PKM</English>
-        <Czech>Tracer magazine for PKM</Czech>
-        <French>Tracer magazine for PKM</French>
-        <Spanish>Tracer magazine for PKM</Spanish>
-        <Italian>Tracer magazine for PKM</Italian>
-        <Polish>Tracer magazine for PKM</Polish>
-        <Portuguese>Tracer magazine for PKM</Portuguese>
-        <Russian>Tracer magazine for PKM</Russian>
-        <German>Tracer magazine for PKM</German>
-      </Key>
-	  <Key ID="STR_fin_100Rnd_pkm_mag">
-        <Original>7.62x54mm 100Rnd PKM Mag</Original>
-        <English>7.62x54mm 100Rnd PKM Mag</English>
-        <Czech>7.62x54mm 100Rnd PKM Mag</Czech>
-        <French>7.62x54mm 100Rnd PKM Mag</French>
-        <Spanish>7.62x54mm 100Rnd PKM Mag</Spanish>
-        <Italian>7.62x54mm 100Rnd PKM Mag</Italian>
-        <Polish>7.62x54mm 100Rnd PKM Mag</Polish>
-        <Portuguese>7.62x54mm 100Rnd PKM Mag</Portuguese>
-        <Russian>7.62x54mm 100Rnd PKM Mag</Russian>
-        <German>7.62x54mm 100Rnd PKM Mag</German>
-      </Key>
-      <Key ID="STR_s_fin_100Rnd_pkm_mag">
-        <Original>7.62x54mm</Original>
-        <English>7.62x54mm</English>
-        <Czech>7.62x54mm</Czech>
-        <French>7.62x54mm</French>
-        <Spanish>7.62x54mm</Spanish>
-        <Italian>7.62x54mm</Italian>
-        <Polish>7.62x54mm</Polish>
-        <Portuguese>7.62x54mm</Portuguese>
-        <Russian>7.62x54mm</Russian>
-        <German>7.62x54mm</German>
-      </Key>
-      <Key ID="STR_desc_fin_100Rnd_pkm_mag">
-        <Original>100rnd magazine for PKM</Original>
-        <English>100rnd magazine for PKM</English>
-        <Czech>100rnd magazine for PKM</Czech>
-        <French>100rnd magazine for PKM</French>
-        <Spanish>100rnd magazine for PKM</Spanish>
-        <Italian>100rnd magazine for PKM</Italian>
-        <Polish>100rnd magazine for PKM</Polish>
-        <Portuguese>100rnd magazine for PKM</Portuguese>
-        <Russian>100rnd magazine for PKM</Russian>
-        <German>100rnd magazine for PKM</German>
       </Key>
       <Key ID="STR_fin_Rk62">
         <Original>Rk 62</Original>
@@ -2729,7 +2897,7 @@
       </Key>
     </Container>
   </Package>
-   <Package name="fin_lisa">
+  <Package name="fin_lisa">
     <Container name="names">
 	<Key ID="STR_fin_lisa">
         <Original>LISA</Original>
