@@ -1,27 +1,24 @@
-
+#include "../fin_main/nameMacros.hpp"
 class CfgPatches
 {
-	class fin_lisa_c
+	class fin_mpl15_c
 	{
-		units[]={};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[]={"A3_Weapons_F","fin_main", "fin_lisa"};
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = { "A3_Weapons_F","fin_main", "fin_mpl15" };
 	};
 };
 
-
 class CfgWeapons {
 	class Laserdesignator;	// External class reference	
-	class fin_lisa : LaserDesignator {
+	class fin_mpl15 : LaserDesignator {
 		public = 2;
-		author = $STR_FinMod_Author;
-		displayName = $STR_fin_lisa;
-		descriptionShort = $STR_fin_lisa_desc;
+		AuthNameMacro(fin_mpl15)
 		model = "\FinMod\addons\fin_lisa\lisa.p3d";
 		modelOptics = "\FinMod\addons\fin_lisa\lisa_optic.p3d";
 		picture = "\FinMod\addons\fin_lisa\data\ui\lisa_CA.paa";
-		discretefov[] = {0.079, 0.026};
+		discretefov[] = { 0.079, 0.026 };
 		discreteInitIndex = 0;
 	};
 };

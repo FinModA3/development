@@ -39,16 +39,16 @@ class fin_PSG_RK95 : fin_Rifleman_RK95
 	respawnWeapons[] = { fin_rk95_aimpoint2009, Throw, Put, Binocular };
 	magazines[]				= { Smoke3Col, Frags, stdMagLdr };
 	respawnMagazines[]		= { Smoke3Col, Frags, stdMagLdr };
-	linkedItems[]			= { stdItems, fin_m05_vest_wflak_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, fin_lisa, NVGoggles_OPFOR };
-	respawnLinkedItems[]	= { stdItems, fin_m05_vest_wflak_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, fin_lisa, NVGoggles_OPFOR };
+	linkedItems[]			= { stdItems, fin_m05_vest_wflak_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, fin_mpl15, NVGoggles_OPFOR };
+	respawnLinkedItems[]	= { stdItems, fin_m05_vest_wflak_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, fin_mpl15, NVGoggles_OPFOR };
 	editorPreview = "\FinMod\addons\fin_character\data\edenpreviews\fin_TL_RK95.jpg";
 };
 class fin_FO_RK95 : fin_PL_RK95
 {
 	AuthNameMacro(fin_FO)
 	icon = "iconManOfficer";
-	weapons[] = { fin_rk95_aimpoint2009, Throw, Put, fin_lisa };
-	respawnWeapons[] = { fin_rk95_aimpoint2009, Throw, Put, fin_lisa };
+	weapons[] = { fin_rk95_aimpoint2009, Throw, Put, fin_mpl15 };
+	respawnWeapons[] = { fin_rk95_aimpoint2009, Throw, Put, fin_mpl15 };
 	magazines[]				= { Smoke3Col, Frags, stdMagLdr };
 	respawnMagazines[]		= { Smoke3Col, Frags, stdMagLdr };
 	linkedItems[]			= { stdItems, fin_m05_vest_wflak_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, NVGoggles_OPFOR };
@@ -256,8 +256,8 @@ class fin_FO_RK62 : fin_FO_RK95
 	vehicleClass = fin_vehclass_jaeger2005;
 	editorSubcategory = fin_vehclass_jaeger2005;
 	AuthNameMacro(fin_FO)
-	weapons[] = { fin_rk62, Throw, Put, fin_lisa };
-	respawnWeapons[] = { fin_rk62, Throw, Put, fin_lisa };
+	weapons[] = { fin_rk62, Throw, Put, fin_mpl15 };
+	respawnWeapons[] = { fin_rk62, Throw, Put, fin_mpl15 };
 	linkedItems[]			= { stdItems, fin_m05_vest_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, NVGoggles_OPFOR };
 	respawnLinkedItems[]	= { stdItems, fin_m05_vest_ldr, fin_m05_Helmet_peltor, fin_m05_backpack_small, NVGoggles_OPFOR };
 	editorPreview = "\FinMod\addons\fin_character\data\edenpreviews\fin_leader_rk62.jpg";

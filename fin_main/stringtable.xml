@@ -2897,31 +2897,31 @@
       </Key>
     </Container>
   </Package>
-  <Package name="fin_lisa">
+  <Package name="fin_MPL15">
     <Container name="names">
-	<Key ID="STR_fin_lisa">
-        <Original>LISA</Original>
-        <English>LISA</English>
-        <Czech>LISA</Czech>
-        <French>LISA</French>
-        <Spanish>LISA</Spanish>
-        <Italian>LISA</Italian>
-        <Polish>LISA</Polish>
-        <Portuguese>LISA</Portuguese>
-        <Russian>LISA</Russian>
-        <German>LISA</German>
+	<Key ID="STR_fin_MPL15">
+        <Original>MPL-15</Original>
+        <English>MPL-15</English>
+        <Czech>MPL-15</Czech>
+        <French>MPL-15</French>
+        <Spanish>MPL-15</Spanish>
+        <Italian>MPL-15</Italian>
+        <Polish>MPL-15</Polish>
+        <Portuguese>MPL-15</Portuguese>
+        <Russian>MPL-15</Russian>
+        <German>MPL-15</German>
       </Key>
-	  	<Key ID="STR_desc_fin_lisa">
-        <Original>Millog LISA hand-held target acquisition and observation system</Original>
-        <English>Millog LISA hand-held target acquisition and observation system</English>
-        <Czech>Millog LISA hand-held target acquisition and observation system</Czech>
-        <French>Millog LISA hand-held target acquisition and observation system</French>
-        <Spanish>Millog LISA hand-held target acquisition and observation system</Spanish>
-        <Italian>Millog LISA hand-held target acquisition and observation system</Italian>
-        <Polish>Millog LISA hand-held target acquisition and observation system</Polish>
-        <Portuguese>Millog LISA hand-held target acquisition and observation system</Portuguese>
-        <Russian>Millog LISA hand-held target acquisition and observation system</Russian>
-        <German>Millog LISA hand-held target acquisition and observation system</German>
+	  	<Key ID="STR_desc_fin_MPL15">
+        <Original>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Original>
+        <English>MPL-15 (Millog LISA) hand-held target acquisition and observation system</English>
+        <Czech>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Czech>
+        <French>MPL-15 (Millog LISA) hand-held target acquisition and observation system</French>
+        <Spanish>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Spanish>
+        <Italian>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Italian>
+        <Polish>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Polish>
+        <Portuguese>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Portuguese>
+        <Russian>MPL-15 (Millog LISA) hand-held target acquisition and observation system</Russian>
+        <German>MPL-15 (Millog LISA) hand-held target acquisition and observation system</German>
       </Key>
     </Container>
   </Package>
