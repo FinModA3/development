@@ -134,7 +134,7 @@ class fin_66kes12 : fin_66kes_base
 
 	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
-		mass = 70.5;		//3.4 kg - rocket weight x lbs // TODO
+		mass = 70.5;		//3.4 kg - rocket weight x lbs
 		allowedSlots[] = {901};
 	};
 };
@@ -146,7 +146,7 @@ class fin_66kes12_rak : fin_66kes12
 	magazines[] = { "fin_66kes12_rak_mag" };
 	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
-		mass = 77.2;		//3.7 kg - rocket weight x lbs // TODO
+		mass = 77.2;		//3.7 kg - rocket weight x lbs
 	};
 };
 
@@ -159,20 +159,6 @@ class fin_66kes12_Used : fin_66kes12
 	model = "FinMod\addons\fin_launchers\66kesXX\kes12_used.p3d";
 	class WeaponSlotsInfo
 	{
-		mass = 48.5;		// -x		// TODO
+		mass = 48.5;		// -x
 	};
 };
-
-class fin_66kes12_rak_Used : fin_66kes12
-{
-	AuthNameMacro(fin_66kes12_rak_Used)
-	scope = 1;
-	fin_disposable_launcher = 0;
-	magazines[] = { "fin_dummy_mag" };
-	model = "FinMod\addons\fin_launchers\66kesXX\kes12_used.p3d";
-	class WeaponSlotsInfo
-	{
-		mass = 55.2;		// -x		// TODO
-	};
-};
-
