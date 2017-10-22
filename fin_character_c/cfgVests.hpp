@@ -104,7 +104,7 @@ class fin_m05_vest_pkm : fin_m05_vest_base
 		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_pkm.p3d";
 		LOAD(60, 180)
 	};
-};
+};/*
 class fin_m05_vest_pkm_assistant : fin_m05_vest_base
 {
 	scope = 2;
@@ -115,7 +115,7 @@ class fin_m05_vest_pkm_assistant : fin_m05_vest_base
 		uniformModel   = "FinMod\addons\fin_character\fin_m05_vest_pkm_assistant.p3d";
 		LOAD(60, 180)
 	};
-};
+};*/
 class fin_m05_vest_cls : fin_m05_vest_base
 {
 	scope = 2;
@@ -202,7 +202,6 @@ class fin_m05_vest_wflak_rifleman: fin_m05_vest_wflak_base
 		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
 	};	
 };
-/*
 class fin_m05_vest_wflak_pkm: fin_m05_vest_wflak_base
 {	
 	scope = 2;
@@ -213,8 +212,7 @@ class fin_m05_vest_wflak_pkm: fin_m05_vest_wflak_base
 		LOAD(200, 80)
 		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
 	};	
-};
-
+};/*
 class fin_m05_vest_wflak_pkm_assistant : fin_m05_vest_wflak_base
 {
 	scope = 2;
@@ -225,8 +223,7 @@ class fin_m05_vest_wflak_pkm_assistant : fin_m05_vest_wflak_base
 		LOAD(200, 180)
 		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_pkm_assistant.p3d";
 	};
-};
-*/
+};*/
 class fin_m05_vest_wflak_CLS: fin_m05_vest_wflak_base
 {	
 	scope = 2;
@@ -292,56 +289,54 @@ class fin_m05_vest_wball_rifleman : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_rifleman)
-	model = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
+	model = "FinMod\addons\fin_character\fin_m05_ballistic_rifleman.p3d";
 	class ItemInfo : ItemInfo
 	{
 		LOAD(280, 80)
-		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_rifleman.p3d";
+		uniformModel = "FinMod\addons\fin_character\fin_m05_ballistic_rifleman.p3d";
 	};
 };
 class fin_m05_vest_wball_ldr : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_ldr)
-	model = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
+	model = "FinMod\addons\fin_character\fin_m05_ballistic_ldr.p3d";
 	class ItemInfo : ItemInfo
 	{
 		LOAD(280, 80)
-		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_ldr.p3d";
+		uniformModel = "FinMod\addons\fin_character\fin_m05_ballistic_ldr.p3d";
 	};
 };
 class fin_m05_vest_wball_pkm : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_pkm)
-	model = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
+	model = "FinMod\addons\fin_character\fin_m05_ballistic_PKM.p3d";
 	class ItemInfo : ItemInfo
 	{
 		LOAD(280, 150)
-		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM.p3d";
+		uniformModel = "FinMod\addons\fin_character\fin_m05_ballistic_PKM.p3d";
 	};
-};
-/*
+};/*
 class fin_m05_vest_wball_pkm_assistant : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_pkm_assistant)
-	model = "FinMod\addons\fin_character\fin_m05_flak_PKM_assistant.p3d";
+	model = "FinMod\addons\fin_character\fin_m05_ballistic_PKM_assistant.p3d";
 	class ItemInfo : ItemInfo
 	{
 		LOAD(280, 180)
-		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_PKM_assistant.p3d";
+		uniformModel = "FinMod\addons\fin_character\fin_m05_ballistic_PKM_assistant.p3d";
 	};
-};
-*/
+};*/
 class fin_m05_vest_wball_CLS : fin_m05_vest_wball_base
 {
 	scope = 2;
 	AuthNameMacro(fin_m05_vest_wball_CLS)
-	model = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
+	model = "FinMod\addons\fin_character\fin_m05_ballistic_CLS.p3d";
 	class ItemInfo : ItemInfo
 	{
 		LOAD(280, 100)
-		uniformModel = "FinMod\addons\fin_character\fin_m05_flak_CLS.p3d";
+		uniformModel = "FinMod\addons\fin_character\fin_m05_ballistic_CLS.p3d";
 	};
 };

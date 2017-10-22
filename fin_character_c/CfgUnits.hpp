@@ -188,8 +188,8 @@ class fin_MG_PKM : fin_Rifleman_RK95
 	respawnWeapons[] = { fin_pkm, Throw, Put };
 	magazines[]			= { stdMagPKM, Frags , stdSmoke};
 	respawnMagazines[]	= { stdMagPKM, Frags , stdSmoke};
-	linkedItems[]			= { stdItems, fin_m05_vest_wball_pkm, fin_m05_Helmet_peltor, fin_MG_backpack };
-	respawnLinkedItems[]	= { stdItems, fin_m05_vest_wball_pkm, fin_m05_Helmet_peltor, fin_MG_backpack };
+	linkedItems[]			= { stdItems, fin_m05_vest_wflak_pkm, fin_m05_Helmet_peltor, fin_MG_backpack };
+	respawnLinkedItems[]	= { stdItems, fin_m05_vest_wflak_pkm, fin_m05_Helmet_peltor, fin_MG_backpack };
 	editorPreview = "\FinMod\addons\fin_character\data\edenpreviews\fin_MG_PKM.jpg";
 };
 class fin_MGa_RK95 : fin_Rifleman_RK95
@@ -365,8 +365,8 @@ class fin_MGa_RK62 : fin_MGa_RK95
 	respawnWeapons[] = { fin_rk62, Throw, Put, Binocular };
 	magazines[] = {stdSmoke, Frags, fin_100Rnd_pkm_mag, fin_100Rnd_pkm_mag, stdMag};
 	respawnMagazines[] = {stdSmoke, Frags, fin_100Rnd_pkm_mag, fin_100Rnd_pkm_mag, stdMag};
-	linkedItems[] = { stdItems, fin_m05_vest_pkm_assistant, fin_m05_Helmet_peltor, fin_MGa_backpack };
-	respawnLinkedItems[] = { stdItems, fin_m05_vest_pkm_assistant, fin_m05_Helmet_peltor, fin_MGa_backpack };
+	linkedItems[] = { stdItems, fin_m05_vest_rifleman, fin_m05_Helmet_peltor, fin_MGa_backpack };
+	respawnLinkedItems[] = { stdItems, fin_m05_vest_rifleman, fin_m05_Helmet_peltor, fin_MGa_backpack };
 	editorPreview = "\FinMod\addons\fin_character\data\edenpreviews\fin_MGa_RK62.jpg";
 	
 };
