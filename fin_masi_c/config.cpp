@@ -1,12 +1,12 @@
 ﻿class DefaultEventhandlers;
 class CfgPatches
 {
-	class fin_masi
+	class fin_masi_c
 	{
 		units[] = {"fin_masi"};
 		weapons[] = {}; 
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"fin_main", "fin_masi"};
 	};
 };
 
@@ -22,8 +22,8 @@ class CfgVehicles
 		//dlc = "sfp";
 		// author="Swedish Forces Pack (SteelRat)";
 		displayname="MASI";
-		model="\fin_masi\fin_masi.p3d";
-		picture="\fin_masi\ui\fin_masi_ca.paa";
+		model="FinMod\addons\fin_masi\fin_masi.p3d";
+		//picture="FinMod\addons\fin_masi\ui\fin_masi_ca.paa";
 		scope=1;
 		side=2;
 		attenuationEffectType = "CarAttenuation";
