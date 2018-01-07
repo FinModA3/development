@@ -108,7 +108,7 @@ class CfgVehicles
 		};
 		dlc="ffp";
 		author="Swedish Forces Pack";
-		faction = "fin_land";
+		faction = "fin_vehclass_tank";
 		maxSpeed = 65;
 		transportSoldier = 7;		
 		supplyRadius = 1.7;
