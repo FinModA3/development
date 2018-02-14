@@ -143,9 +143,9 @@ class CfgSoundShaders
 	};
 
 	// Reflection Tails ---------------------------------------------------------------------------------------------------------------------------
-	// N‰it‰ ei taida olla erikseen tehty, siis: etsit‰‰n kiva vanilla pyssy joka about yht‰ voimakas ja k‰yttet‰‰n sen ‰‰ni‰
-	// Katso sounds_f config.cpp, siell‰ esim. autocannon 30mm yms. muuta geneerist‰ myˆs
-	// Limitation: s‰‰stet‰‰n prosessointitehoa, kun vain voimakkaimmat ‰‰net soitetaan. Jos limitation = true (1), niin mukana t‰ss‰ vertailussa (SoundShadersLimit = max soitettavat ‰‰net). Esim. t‰ss‰ sis‰tilojen kaiku soi aina vaikkei olisi ‰‰nekk‰in, muut kaiut mukana vertailussa
+	// N√§it√§ ei taida olla erikseen tehty, siis: etsit√§√§n kiva vanilla pyssy joka about yht√§ voimakas ja k√§yttet√§√§n sen √§√§ni√§
+	// Katso sounds_f config.cpp, siell√§ esim. autocannon 30mm yms. muuta geneerist√§ my√∂s
+	// Limitation: s√§√§stet√§√§n prosessointitehoa, kun vain voimakkaimmat √§√§net soitetaan. Jos limitation = true (1), niin mukana t√§ss√§ vertailussa (SoundShadersLimit = max soitettavat √§√§net). Esim. t√§ss√§ sis√§tilojen kaiku soi aina vaikkei olisi √§√§nekk√§in, muut kaiut mukana vertailussa
 	class fin_RK_tailInterior_SoundShader
 	{
 		samples[] = { { "\a3\sounds_f\arsenal\weapons\Rifles\TRG20\TRG20_tailInterior.wss", 1 } };
@@ -192,7 +192,7 @@ class CfgSoundSets
 {
 	class fin_RK62_Shot_SoundSet
 	{
-		// Ampuessa pelaajille soi n‰itten ‰‰ni shaderien yhteiskikkare, 
+		// Ampuessa pelaajille soi n√§itten √§√§ni shaderien yhteiskikkare, 
 		// array of SoundShaders to be played together with 100% synchronization
 		// note that not all SoundShaders will necessarily play, it depends on their specific configuration and also on soundShadersLimit parameter
 		soundShaders[] =
@@ -207,17 +207,23 @@ class CfgSoundSets
 		volumeCurve="InverseSquare2Curve";
 		sound3DProcessingType = "fin_RK_Shot3DProcessingType"; // sound processing type class name (CfgSound3DProcessors)
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter"; // class name of custom distance frequency attenuation filter (CfgDistanceFilters)
-		// spatial aina (ACEn syd‰mentykytys -> false, me ei tehd‰ varmaan yht‰‰n ei spatial ‰‰nt‰) edit: paitsi ehk‰ ajoneuvon sis‰ll‰ ‰‰net
+		// spatial aina (ACEn syd√§mentykytys -> false, me ei tehd√§ varmaan yht√§√§n ei spatial √§√§nt√§) edit: paitsi ehk√§ ajoneuvon sis√§ll√§ √§√§net
 		spatial = 1; // is sound considered as positional
-		// nopeasti liikkuville asioille doppler = true, paitsi jos ‰‰ni liian nopea (luoti, itse *viuuh* ‰‰ness‰ on doppler mukana)
+		// nopeasti liikkuville asioille doppler = true, paitsi jos √§√§ni liian nopea (luoti, itse *viuuh* √§√§ness√§ on doppler mukana)
 		doppler = 0; // doppler effect simulation
 		// loop = false: "This is WIP, not sure how it works, will add information as soon as the feature becomes more prevalent." -Wiki
 		loop = 0;
 		
+		//Kertoimet √§√§nten vaimentumiseen v√§liss√§ olevien esteiden vaikutuksesta, vakiona ampuminen vaimenee liikaa
+		//obsVolumeFactor = 1-(1-GetObstruction)*obstructionFactor; where GetObstruction is value calculated from the scene
+		obstructionFactor = 0.3;
+		//occVolumeFactor = 1-(1-GetOcclusion)*occlusionFactor; where GetOcclusion is value calculated from the scene
+		occlusionFactor = 0.5;
+		
 	};
 	class fin_RK95_Shot_SoundSet
 	{
-		// Ampuessa pelaajille soi n‰itten ‰‰ni shaderien yhteiskikkare, 
+		// Ampuessa pelaajille soi n√§itten √§√§ni shaderien yhteiskikkare, 
 		// array of SoundShaders to be played together with 100% synchronization
 		// note that not all SoundShaders will necessarily play, it depends on their specific configuration and also on soundShadersLimit parameter
 		soundShaders[] =
@@ -232,12 +238,18 @@ class CfgSoundSets
 		volumeCurve="InverseSquare2Curve";
 		sound3DProcessingType = "fin_RK_Shot3DProcessingType"; // sound processing type class name (CfgSound3DProcessors)
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter"; // class name of custom distance frequency attenuation filter (CfgDistanceFilters)
-																   // spatial aina (ACEn syd‰mentykytys -> false, me ei tehd‰ varmaan yht‰‰n ei spatial ‰‰nt‰) edit: paitsi ehk‰ ajoneuvon sis‰ll‰ ‰‰net
+																   // spatial aina (ACEn syd√§mentykytys -> false, me ei tehd√§ varmaan yht√§√§n ei spatial √§√§nt√§) edit: paitsi ehk√§ ajoneuvon sis√§ll√§ √§√§net
 		spatial = 1; // is sound considered as positional
-						// nopeasti liikkuville asioille doppler = true, paitsi jos ‰‰ni liian nopea (luoti, itse *viuuh* ‰‰ness‰ on doppler mukana)
+		// nopeasti liikkuville asioille doppler = true, paitsi jos √§√§ni liian nopea (luoti, itse *viuuh* √§√§ness√§ on doppler mukana)
 		doppler = 0; // doppler effect simulation
-						 // loop = false: "This is WIP, not sure how it works, will add information as soon as the feature becomes more prevalent." -Wiki
+		// loop = false: "This is WIP, not sure how it works, will add information as soon as the feature becomes more prevalent." -Wiki
 		loop = 0;
+		
+		//Kertoimet √§√§nten vaimentumiseen v√§liss√§ olevien esteiden vaikutuksesta, vakiona ampuminen vaimenee liikaa
+		//obsVolumeFactor = 1-(1-GetObstruction)*obstructionFactor; where GetObstruction is value calculated from the scene
+		obstructionFactor = 0.3;
+		//occVolumeFactor = 1-(1-GetOcclusion)*occlusionFactor; where GetOcclusion is value calculated from the scene
+		occlusionFactor = 0.5;
 		
 	};
 	class fin_RK_Tail_SoundSet
@@ -251,7 +263,7 @@ class CfgSoundSets
 			"fin_RK_tailHouses_SoundShader"
 		};
 
-		soundShadersLimit = 2;		// Kuinka monta ‰‰nt‰ tarvitaan maksimissa kuulumaan? (sis‰tila-, mets‰-, yms. kaiut samaan aikaan)
+		soundShadersLimit = 2;		// Kuinka monta √§√§nt√§ tarvitaan maksimissa kuulumaan? (sis√§tila-, mets√§-, yms. kaiut samaan aikaan)
 									// engine will play only soundShadersLimit number of SoundShaders with highest volume value (including calculation of rangeCurve) from the group of SoundShaders which has limitation parameter set to true plus all the others
 
 		volumeFactor = 1;
@@ -263,6 +275,11 @@ class CfgSoundSets
 		doppler = 0;
 		loop = 0;
 		
+		//Kertoimet √§√§nten vaimentumiseen v√§liss√§ olevien esteiden vaikutuksesta, vakiona ampuminen vaimenee liikaa
+		//obsVolumeFactor = 1-(1-GetObstruction)*obstructionFactor; where GetObstruction is value calculated from the scene
+		obstructionFactor = 0;
+		//occVolumeFactor = 1-(1-GetOcclusion)*occlusionFactor; where GetOcclusion is value calculated from the scene
+		occlusionFactor = 0.3;
 	};
 };
 
@@ -287,10 +304,10 @@ class cfgSound3DProcessors
 
 class cfgDistanceFilters
 {
-	// Pitk‰ll‰ matkalla ‰‰nest‰ katoaa korkeita taajuuksia, t‰m‰ hoitaa tuon tempun
+	// Pitk√§ll√§ matkalla √§√§nest√§ katoaa korkeita taajuuksia, t√§m√§ hoitaa tuon tempun
 	class fin_RK_ShotDistanceFreqAttenuationFilter
 	{
-		// Alip‰‰stˆsuodatin leikkaa korkeita taajuuksia (alip‰‰stˆ->alhaiset p‰‰see, lue Wikipedia t. s‰hkˆinsinˆˆri). Et‰isyyksill‰ ei tarvinne muita. Jos ‰‰net suunniteltu ottamaan taajuudet huomioon, k‰yt‰ distanceFilter = "none"; soundSetiss‰
+		// Alip√§√§st√∂suodatin leikkaa korkeita taajuuksia (alip√§√§st√∂->alhaiset p√§√§see, lue Wikipedia t. s√§hk√∂insin√∂√∂ri). Et√§isyyksill√§ ei tarvinne muita. Jos √§√§net suunniteltu ottamaan taajuudet huomioon, k√§yt√§ distanceFilter = "none"; soundSetiss√§
 		type = "lowPassFilter"; // type of filter
 		minCutoffFrequency = 300; // cutoff frequency is constantly falling with the distance to minCutoffFrequency value
 		qFactor = 1.5; // https://en.wikipedia.org/wiki/Q_factor
