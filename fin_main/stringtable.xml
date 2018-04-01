@@ -569,6 +569,19 @@
         <Russian>M05 Composite helmet</Russian>
         <German>M05 Composite helmet</German>
       </Key>
+	   <Container name ="gear">
+      <Key ID="STR_fin_m05_Helmet_havut">
+        <Original>M05 Composite helmet with camouflage</Original>
+        <English>M05 Composite helmet with camouflage</English>
+        <Czech>M05 Composite helmet with camouflage</Czech>
+        <French>M05 Composite helmet with camouflage</French>
+        <Spanish>M05 Composite helmet with camouflage</Spanish>
+        <Italian>M05 Composite helmet with camouflage</Italian>
+        <Polish>M05 Composite helmet with camouflage</Polish>
+        <Portuguese>M05 Composite helmet with camouflage</Portuguese>
+        <Russian>M05 Composite helmet with camouflage</Russian>
+        <German>M05 Composite helmet with camouflage</German>
+      </Key>
 	  <Key ID="STR_fin_nakkipipo">
         <Original>FDF crew helmet</Original>
         <English>FDF crew helmet</English>

@@ -45,8 +45,8 @@ class CfgWeapons{
 	#include "acog/acog.hpp"
 	#include "pp04/punapiste2004.hpp"
 	#include "pp09/punapiste2009.hpp"
-	#include "tkiv_bipod/CfgBipod.hpp"
-	#include "tkiv_scope/CfgScope.hpp"
+	//#include "tkiv_bipod/CfgBipod.hpp"
+	//#include "tkiv_scope/CfgScope.hpp"
 };
 class CfgVehicles{
 	class Item_Base_F;

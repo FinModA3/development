@@ -57,6 +57,18 @@ class fin_m05_Helmet_goggles : fin_m05_Helmet
 		uniformModel   = "FinMod\addons\fin_character\m05helmet_ess.p3d";
 	};
 };
+
+class fin_m05_Helmet_havut : fin_m05_Helmet
+{
+	scope = 2;
+	AuthNameMacro(fin_m05_Helmet_havut)
+	model = "FinMod\addons\fin_character\m05helmet_havut.p3d";
+	class ItemInfo : ItemInfo
+	{
+		uniformModel   = "FinMod\addons\fin_character\m05helmet_havut.p3d";
+	};
+};
+
 class fin_m05_Helmet_goggles_cov: fin_m05_Helmet
 {
 	scope = 2;
