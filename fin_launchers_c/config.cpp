@@ -14,7 +14,7 @@ class CfgPatches
 	};
 };
 
-class CfgFunctions
+/*class CfgFunctions
 {
 	class fin_launchers
 	{

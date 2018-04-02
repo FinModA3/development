@@ -2,8 +2,11 @@
 {
 	scope = 2;
 	AuthNameMacro(fin_Apilas)
-	fin_disposable_launcher = 1;
-	fin_used_launcher = "fin_Apilas_Used";
+	//fin_disposable_launcher = 1;
+	//fin_used_launcher = "fin_Apilas_Used";	
+	
+    ACE_UsedTube = "fin_Apilas_Used";  // The class name of the used tube
+	
 	model = "FinMod\addons\fin_launchers\Apilas\apilas.p3d";
 	picture = "\FinMod\addons\fin_launchers\Apilas\data\UI\gear_apilas_ca.paa";
 	handAnim[] = {"OFP2_ManSkeleton","\FinMod\addons\fin_launchers\Apilas\anim\rkses112_apilas_handanim_mk3_v13.rtm"};	//TODO   "fin_launchers\Apilas\anim\apilas_handanim.rtm"
@@ -83,12 +86,18 @@
 		libTextDesc = "112 RsKES APILAS is a disposable anti-tank rocket launcher used by Finnish Defence Forces anti-tank specialists";
 	};
 };
-class fin_Apilas_Used : fin_Apilas
+class fin_Apilas_Used: fin_Apilas
 {
 	scope=1;
-	fin_disposable_launcher = 0;
-	magazines[] = {"fin_dummy_mag"};
+	/*fin_disposable_launcher = 0;
+	magazines[] = {"fin_dummy_mag"};*/
 	AuthNameMacro(fin_Apilas_Used)
+	
+	//ACE DISPOSABLE
+	ACE_isUsedLauncher = 1;
+    magazines[] = {"ACE_FiredMissileDummy"};  // This will disable the used launcher class from being fired again
+    weaponPoolAvailable = 0;
+	
 	//descriptionMacro(fin_Apilas_Used)
 	model = "FinMod\addons\fin_launchers\Apilas\apilas_used.p3d";
 	class WeaponSlotsInfo : WeaponSlotsInfo

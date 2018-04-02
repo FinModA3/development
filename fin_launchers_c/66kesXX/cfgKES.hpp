@@ -1,8 +1,8 @@
 class fin_66kes_base : Launcher_Base_F
 {
 	scope = 1;
-	fin_disposable_launcher = 1;
-
+	//fin_disposable_launcher = 1;
+	
 	drySound[] = { "A3\sounds_f\weapons\other\dry6",0.0316228,1,10 };
 	reloadMagazineSound[] = { "A3\sounds_f\weapons\rockets\titan_reload_final",0.562341,1,50 };
 	soundFly[] = { "A3\sounds_f\weapons\rockets\rocket_fly_1",0.316228,1.5,700 };
@@ -72,7 +72,11 @@ class fin_66kes88: fin_66kes_base
 	AuthNameMacro(fin_66kes88)
 	LibraryMacro(fin_66kes88)
 	scope = 2;
-	fin_used_launcher = "fin_66kes88_Used";
+	//fin_used_launcher = "fin_66kes88_Used";
+	
+	//ACE DISPOSABLE
+	ACE_UsedTube = "fin_66kes88_Used";  // The class name of the used tube
+	
 	model = "FinMod\addons\fin_launchers\66kesXX\kes88";
 	picture = "\FinMod\addons\fin_launchers\66kesXX\data\UI\gear_66kes88_ca.paa";
 	handAnim[] = { "OFP2_ManSkeleton","\FinMod\addons\fin_launchers\66kesXX\anim\KES_Handanim_v1.rtm" };
@@ -95,8 +99,14 @@ class fin_66kes88_Used : fin_66kes88
 {
 	AuthNameMacro(fin_66kes88_Used)
 	scope = 1;
-	fin_disposable_launcher = 0;
-	magazines[] = { "fin_dummy_mag" };
+	/*fin_disposable_launcher = 0;
+	magazines[] = { "fin_dummy_mag" };*/
+	
+	//ACE DISPOSABLE
+    ACE_isUsedLauncher = 1;
+    magazines[] = {"ACE_FiredMissileDummy"};  // This will disable the used launcher class from being fired again
+	weaponPoolAvailable = 0;
+	
 	model = "FinMod\addons\fin_launchers\66kesXX\kes88_used.p3d";
 	class WeaponSlotsInfo
 	{
@@ -109,7 +119,11 @@ class fin_66kes12 : fin_66kes_base
 	AuthNameMacro(fin_66kes12)
 	LibraryMacro(fin_66kes12)
 	scope = 2;
-	fin_used_launcher = "fin_66kes12_Used";
+	//fin_used_launcher = "fin_66kes12_Used";
+	
+	//ACE DISPOSABLE
+	ACE_UsedTube = "fin_66kes12_Used";  // The class name of the used tube
+	
 	model = "FinMod\addons\fin_launchers\66kesXX\kes12";
 	picture = "\FinMod\addons\fin_launchers\66kesXX\data\UI\gear_66kes12_ca.paa";
 	handAnim[] = { "OFP2_ManSkeleton","\FinMod\addons\fin_launchers\66kesXX\anim\KES_Handanim_v1.rtm" };
@@ -143,6 +157,10 @@ class fin_66kes12_rak : fin_66kes12
 {
 	AuthNameMacro(fin_66kes12_rak)
 	LibraryMacro(fin_66kes12_rak)
+
+	//ACE DISPOSABLE
+	ACE_UsedTube = "fin_66kes12_Used";  // The class name of the used tube
+	
 	magazines[] = { "fin_66kes12_rak_mag" };
 	class WeaponSlotsInfo : WeaponSlotsInfo
 	{
@@ -154,8 +172,14 @@ class fin_66kes12_Used : fin_66kes12
 {
 	AuthNameMacro(fin_66kes12_Used)
 	scope = 1;
-	fin_disposable_launcher = 0;
-	magazines[] = { "fin_dummy_mag" };
+	/*fin_disposable_launcher = 0;
+	magazines[] = { "fin_dummy_mag" };*/
+	
+	//ACE DISPOSABLE
+	ACE_isUsedLauncher = 1;
+    magazines[] = {"ACE_FiredMissileDummy"};  // This will disable the used launcher class from being fired again
+    weaponPoolAvailable = 0;
+	
 	model = "FinMod\addons\fin_launchers\66kesXX\kes12_used.p3d";
 	class WeaponSlotsInfo
 	{
